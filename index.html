@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="wow.min.js"></script>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <header class="nav text-white bg-primary hidden md:block">
+        <div class="flex justify-between items-center py-2 px-6 xl:px-0 xl:justify-between xl:mx-auto xl:max-w-screen-xl">
+          <!-- Header content for large screens -->
+          <div class="flex flex-col sm:flex-row items-center space-x-2 sm:space-x-4">
+            <div class="text-sm">
+              <span class="inline-flex items-center font-semibold">
+                <i class="fa-solid fa-location-dot pr-3"></i> PF & Salary Enquiries:
+              </span>
+              <span class="font-bold ml-1">+91 44 42123500</span>
+            </div>
+            <div class="text-sm font-semibold">
+              <i class="fa-regular fa-envelope pr-2"></i> sales@talentproindia.com
+            </div>
+          </div>
+          <!-- Social media icons -->
+          <div class="flex-1 flex justify-end xl:justify-end space-x-6">
+            <a href="#" class="hover:text-yellow-600"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-yellow-600"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="hover:text-yellow-600"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="hover:text-yellow-600"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+      </header>
+
+  
+  <div class="flex justify-between items-center px-6 xl:px-0 py-4 xl:py-0 xl:justify-between xl:mx-auto xl:max-w-screen-xl">
+    <div class="flex items-center">
+      <!-- Hamburger menu for medium and small screens -->
+      <div class="md:flex mr-2 xl:hidden">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"></path></svg>
+        </button>
+      </div>
+      
+      <!-- Logo -->
+      <div class="flex items-center md:w-32 md:h-4 xl:w-full">
+        <img src="https://www.talentproindia.com/wp-content/uploads/2021/09/TalentPro_Logo-small.png" 
+             alt="TalentPro Logo" class="w-auto h-4 md:h-10 xl:h-12" />
+    </div>
+    
+    </div>
+    
+    
+  
+    <!-- GIF for large screens only -->
+    <div class="hidden xl:flex flex-grow justify-center">
+      <img src="https://www.talentproindia.com/wp-content/uploads/2021/09/TalentPro-Stepping-into.gif" 
+           alt="TalentPro Stepping Into" class="inline-block" />
+    </div>
+  
+    <!-- Contact Information and Search icon for medium and large screens -->
+    <div class="text-right flex items-center space-x-4">
+      <!-- Contact info for large screens only -->
+      <div class="hidden xl:block text-headercolor ">
+        <p class="flex items-center justify-end space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="none" d="M0 0h24v24H0z"></path><path fill="rgb(229, 193, 55)" d="M22 17.002a6.002 6.002 0 0 1-4.713 5.86l-.638-1.914A4.003 4.003 0 0 0 19.465 19H17a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h2.938a8.001 8.001 0 0 0-15.876 0H7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5C2 6.477 6.477 2 12 2s10 4.477 10 10V17.002zM20 17v-4h-3v4h3zM4 13v4h3v-4H4z"></path></svg>
+          <span>Get free consultation!</span>
+        </p>
+        <p class="text-black font-semibold">
+          1800 103 5642, 044 42123497
+        </p>
+      </div>
+      <!-- Search icon for medium and small screens -->
+      <div class="xl:hidden md:block">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="rgb(175, 176, 181)" d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Navigation bar for large screens only -->
+  <div class="sticky top-0 z-50 bg-white w-full">
+  <div class="hidden xl:flex justify-between items-center px-4 xl:px-0 w-full xl:justify-between xl:mx-auto xl:max-w-screen-xl border-t-3 border-transparent h-14">
+    <nav class="flex-grow flex justify-center xl:justify-between items-center space-x-10 h-full">
+        <ul class="flex space-x-10 h-full">
+            <li class="relative border-t-2 border-transparent hover:border-yellow-500 h-full flex items-center">
+                <a href="#" class=" hover:text-headercolor h-full flex items-center font-semibold text-gray-500">Home</a>
+            </li>
+            <li class="relative border-t-2 border-transparent hover:border-yellow-500 h-full flex items-center group">
+                <a href="#" class="text-gray-500 hover:text-headercolor h-full flex items-center px-4 space-x-1">
+                    <span class="leading-none font-semibold ">About us</span> 
+                    <i class="fa-solid fa-caret-down text-[10px] text-gray-400 group-hover:text-black flex-shrink-0 leading-none pt-1"></i>
+                </a>
+                
+            </li>
+            <li class="relative border-t-2 border-transparent hover:border-yellow-500 h-full flex items-center group">
+                <a href="#" class="text-gray-500 hover:text-headercolor h-full flex items-center px-4 space-x-1">
+                    <span class="font-semibold ">Services</span> 
+                    <i class="fa-solid fa-caret-down text-[10px] text-gray-400 group-hover:text-black pt-1"></i>
+                </a>
+            </li>
+            <li class="relative border-t-2 border-transparent hover:border-yellow-500 h-full flex items-center group">
+                <a href="#" class="text-gray-500 hover:text-headercolor h-full flex items-center px-4 space-x-1">
+                    <span class="font-semibold ">Sources</span> 
+                    <i class="fa-solid fa-caret-down text-[10px] text-gray-400 group-hover:text-black pt-1"></i>
+                </a>
+            </li>
+            <li class="relative border-t-2 border-transparent hover:border-yellow-500 h-full flex items-center">
+                <a href="#" class="font-semibold text-gray-500 hover:text-headercolor h-full flex items-center px-4">Blog</a>
+            </li>
+            <li class="relative border-t-2 border-transparent hover:border-yellow-500 h-full flex items-center group">
+                <a href="#" class="text-gray-500 hover:text-headercolor h-full flex items-center px-4 space-x-1">
+                    <span class="font-semibold ">Careers</span> 
+                    <i class="fa-solid fa-caret-down text-[10px] text-gray-400 group-hover:text-black pt-1"></i>
+                </a>
+            </li>
+            <li class="relative border-t-2 border-transparent hover:border-yellow-500 h-full flex items-center">
+                <a href="#" class="text-gray-500 hover:text-headercolor h-full flex items-center px-4 font-semibold "  >Contact us</a>
+            </li>
+        </ul>
+    </nav>
+    <button class="px-8 py-3 text-white bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-move rounded-full font-semibold">
+        Book a demo
+      </button>
+</div>
+</div>
+
+
+              <!-- slider -->
+
+              <div class="relative w-full overflow-hidden xl:mx-auto xl:px-0 ">
+                <div class="flex transition-transform duration-500 ease-in-out">
+                    <!-- Slide 1 -->
+                    <div id="slide1" class="relative w-full flex-shrink-0">
+                        <img
+                            src="https://talentproindia.com/wp-content/uploads/2024/02/payroll-services.jpg"
+                            alt="Slide 1"
+                            class="w-full h-[500px] md:h-[600px] xl:h-[800px] object-cover"
+                        />
+                        <div class="absolute inset-0 w-full bg-black bg-opacity-60">
+                            <div class="flex px-20 md:px-10 sm:px-6 xl:justify-center xl:mx-auto xl:max-w-screen-xl w-full h-full">
+                                <!-- Content Section -->
+                                <div class="flex-1 flex flex-col justify-center xl:pl-0 md:pl-8 md:pr-6 sm:pl-4 sm:pr-4 xl:max-w-screen-xl xl:mx-auto">
+                                    <h1 class="text-white leading-tight font-bold text-[26px] text-center mb-4 lg:text-6xl lg:text-left md:text-[58px] xl:text-left wow animate__animated animate__fadeInRight animate__delay-0.5s">
+                                        Payroll Services
+                                    </h1>
+                    
+                                    <hr class="border-2 border-[#F1C108] mb-6 w-24 mx-auto lg:w-96 md:w-72 lg:mx-0 md:mx-auto" />
+                    
+                                    <p class="text-white leading-tight xl:leading-relaxed mb-8 text-center text-[14px] md:text[17px] xl:text-[18px] xl:w-1/2 lg:w-3/4 lg:text-left wow animate__animated animate__fadeInDown animate__delay-0.5s">
+                                        Discover the advantages of outsourcing your payroll to TalentPro. Let us take care of your payroll, leave management, payroll compliance, and more so you can focus on what you do best.
+                                    </p>
+                                    <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
+                                        <a href="#" class="bg-[#F1C108] hover:bg-[#18794E] text-white text-[12px] md:text[15px] xl:text-[16px] py-2 px-6 rounded-sm transition-colors duration-300 md:text-lg md:px-6 md:py-2 xl:px-10 xl:py-3 animate__animated animate__fadeInRight animate__delay-0.5s">
+                                            View details
+                                        </a>
+                                        <a href="#" class="bg-[#32508C] hover:bg-[#18794E] text-white text-[12px] md:text-[15px] xl:text-[16px] py-2 px-6 rounded-sm transition-colors duration-300 md:text-lg md:py-2 md:px-6 xl:px-10 xl:py-3 wow animate__animated animate__fadeInRight animate__delay-0.5s">
+                                            Get a quote
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Side Links -->
+                                <div class="hidden lg:flex justify-center items-center xl:absolute xl:top-1/2 lg:pr-20 xl:transform xl:-translate-y-1/2 xl:right-16">
+                                    <div class="flex flex-col space-y-2 xl:pr-0 xl:text-left">
+                                        <a href="#slide1" class="text-white hover:text-[#F1C108] transition-colors duration-300">
+                                            PAYROLL SERVICES
+                                        </a>
+                                        <a href="#slide2" class="text-white hover:text-[#F1C108] transition-colors duration-300">
+                                            COMPLIANCE SERVICES
+                                        </a>
+                                        <a href="#slide3" class="text-white hover:text-[#F1C108] transition-colors duration-300">
+                                            STAFFING SOLUTIONS
+                                        </a>
+                                        <a href="#slide4" class="text-white hover:text-[#F1C108] transition-colors duration-300">
+                                            IT STAFFING SOLUTIONS
+                                        </a>
+                                        <a href="#slide5" class="text-white hover:text-[#F1C108] transition-colors duration-300">
+                                            CONTRACT STAFFING
+                                        </a>
+                                        <a href="#slide6" class="text-white hover:text-[#F1C108] transition-colors duration-300">
+                                            RECRUITMENT
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Additional slides can be added here following the same structure -->
+                </div>
+                <!-- Navigation Arrows -->
+                <a
+                    href="#"
+                    class="absolute top-1/2 left-4 transform -translate-y-1/2 text-white p-2 transition-colors duration-300 font-thin"
+                >
+                    <i class="fa-solid fa-chevron-left lg:text-4xl text-3xl"></i>
+                </a>
+                <a
+                    href="#"
+                    class="absolute top-1/2 right-4 transform -translate-y-1/2 text-white p-3 transition-colors duration-300 font-thin"
+                >
+                    <i class="fa-solid fa-chevron-right lg:text-4xl text-3xl"></i>
+                </a>
+            </div>
+            
+            
+            
+              
+
+            <div class="bg-white text-center py-16">
+              <h1 class="font-bold text-2xl md:text-4xl xl:text-[40px] mb-10">
+                A leading HR service provider
+              </h1>
+              
+              <p class="xl:font-semibold px-4 xl:leading-loose mb-4 xl:mb-0 lg:px-2 md:text-center md:px-24 md:font-normal xl:px-60  xl:text-gray-600 wow animate__animated animate__fadeInUp animate__delay-0.5s ">
+                  Join hands with TalentPro India, your HR partner with a rich experience of over 25 years in collaborating with organizations.
+                  <p class="xl:font-semibold px-4 xl:leading-loose mb-4 xl:mb-0 lg:px-2 md:text-center md:px-24 md:font-normal xl:px-60 xl:text-gray-600 wow animate__animated animate__fadeInUp animate__delay-0.5s">Our comprehensive end-to-end HR services and solutions are driven by deep domain expertise, ensuring</p>
+                  <p class="xl:font-semibold px-4 xl:leading-loose mb-4 xl:mb-0 md:text-center md:px-24 md:font-normal lg:px-60 xl:text-gray-600 wow animate__animated animate__fadeInUp animate__delay-0.5s">you get the best support for your HR needs.</p>
+              </p>
+          </div>
+
+          <!-- form  -->
+
+          <div class=" bg-[#32508C] flex items-center justify-center px-4 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center md:px-4 xl:px-40">
+                <div class="text-white">
+                    <div class=" flex flex-col justify-center h-full nap-start">
+                        <h1 class="text-[24px] leading-tight text-left md:text-[66px] md:leading-none font-bold mb-4 md:mb-8 pr-0 md:pr-8  wow animate__animated animate__fadeInUp animate__delay-0.5s">
+                            Request <br> a demo or <br class="hidden xl:block">  quote now!
+                        </h1>
+                        <p class="text-[22px] leading-relaxed text-left md:text-[22px] lg:text-2xl font-semibold mb-6 text-headercolor pr-0 md:pr-8 md:text-left wow animate__animated animate__fadeInUp animate__delay-0.5s">
+                            Let’s discover the ideal solution for your business.
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg max-w-full lg:max-w-3xl w-full">
+                    <form>
+                        <div class="flex flex-col md:flex-row mb-4 space-y-4 md:space-y-0 md:space-x-4">
+                            <div class="w-full">
+                                <label for="name" class="block text-gray-700 font-semibold mb-2">Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="name" class="appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Name" required>
+                            </div>
+                            <div class="w-full">
+                                <label for="email" class="block text-gray-700 font-semibold mb-2">Email <span class="text-red-500">*</span></label>
+                                <input type="email" id="email" class="appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="flex flex-col md:flex-row mb-4 space-y-4 md:space-y-0 md:space-x-4">
+                            <div class="w-full">
+                                <label for="phone" class="block text-gray-700 font-semibold mb-2">Mobile number <span class="text-red-500">*</span></label>
+                                <input type="tel" id="phone" class="appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Phone" required>
+                            </div>
+                            <div class="w-full relative">
+                                <label for="services" class="block text-gray-700 font-semibold mb-2">Services type <span class="text-red-500">*</span></label>
+                                <select id="services" class="appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-8" required>
+                                    <option>Payroll Services</option>
+                                    <option>Accounting Services</option>
+                                    <option>Consulting Services</option>
+                                </select>
+                                <i class="fa-solid fa-caret-down absolute inset-y-0 right-3 top-8 flex items-center pointer-events-none text-gray-700"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="company" class="block text-gray-700 font-semibold mb-2">Company name <span class="text-red-500">*</span></label>
+                            <input type="text" id="company" class="appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Company name" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="comments" class="block text-gray-700 font-semibold mb-2">Comments</label>
+                            <textarea id="comments" class="appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Comments"></textarea>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <button type="submit" class="bg-[#32508C] text-white font-bold py-4 px-6 rounded-md focus:outline-none text-sm focus:shadow-outline hover:bg-[#FFC400] hover:text-black">
+                                SUBMIT
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- our company -->
+
+        <div class="bg-white px-4 py-16 lg:px-6 md:py-16 xl:px-28 xl:mx-auto max-w-full">
+          <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-center font-bold text-3xl md:text-4xl lg:text-[42px] pb-6 md:pb-8 lg:pb-10">
+              Our company
+            </h1>
+            <p class="text-center font-semibold text-sm   md:text-base xl:text-[17px] pb-6 md:pb-8 xl:pb-10 leading-loose text-gray-600 animate__animated animate__fadeInUp animate__delay-0.5s">
+              TalentPro is a leading HR company in India offering end-to-end human resources management services. We provide expert solutions on payroll outsourcing, statutory compliances, recruitment, staffing among various other services. With over two decades of experience, TalentPro is now the leading and preferred HR partner for startups, small and medium businesses, and large MNCs.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row sm:gap-4 md:gap-8 lg:gap-12 wow animate__animated animate__fadeInUp animate__delay-0.5s">
+              <div class="mb-6 sm:mb-0">
+                <h3 class="font-bold text-base md:text-lg lg:text-xl mb-2 md:mb-4">
+                  Who we are?
+                </h3>
+                <p class="leading-loose font-semibold  text-sm md:text-base lg:text-[16px] text-gray-600">
+                  TalentPro India is more than an HR service provider; we are your strategic partner in success. We redefine HR management by focusing on expertise, tailored solutions, cutting-edge technology, and reliable services to ensure that your HR processes align seamlessly with your business objectives, driving growth and enhancing productivity.
+                </p>
+              </div>
+            
+              <div class="mb-6 sm:mb-0">
+                <h3 class="font-bold text-base md:text-lg lg:text-xl mb-2 md:mb-4">
+                  What we do?
+                </h3>
+                <p class="leading-loose font-semibold text-sm  md:text-base lg:text-[16px] text-gray-600">
+                  TalentPro offers a comprehensive suite of HR services, including payroll processing, staffing and recruitment, compliance management, employee benefits administration, and HR consulting. Our services are designed to streamline HR processes and help businesses focus on their core operations.
+                </p>
+              </div>
+            
+              <div>
+                <h3 class="font-bold text-base md:text-lg lg:text-xl mb-2 md:mb-4">
+                  Why choose us?
+                </h3>
+                <p class="leading-loose font-semibold text-sm md:text-base lg:text-[16px] text-gray-600">
+                  Over the last two decades in our growth journey, with robust systems and processes, we have been benchmarked for quality & reliability. TalentPro aims to streamline HR processes, improve efficiency, reduce administrative burdens, and ensure that businesses remain compliant with relevant laws and regulations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+
+         <!-- principle of work -->
+
+         <div class="bg-[#32508C] py-8 xl:py-10 text-white relative">
+            <!-- Icon in the middle at the top -->
+            <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <i class="block w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[40px] border-t-white"></i>
+            </div>
+                 
+            <!-- Heading -->
+            <h1 class="text-center font-semibold text-[29px] md:text-[44px]  text-white mb-12">Principles of our work</h1>
+            <hr class="hidden">
+          
+            <!-- Container centered in the parent div -->
+            <div class="container mx-auto flex flex-col items-center justify-center px-4 py-4 xl:px-32 xl:flex-row xl:justify-center xl:items-center gap-16 wow animate__animated animate__fadeInUp animate__delay-0.5s">
+              <!-- Content Item 1 -->
+              <div class="flex flex-col items-center text-center md:items-start md:text-left xl:items-left xl:text-left">
+                <h1 class="text-headercolor text-[100px] font-extralight">01.</h1>
+                <h3 class="font-bold text-[32px] mb-4">Client-centric approach</h3>
+                <p class="leading-relaxed xl:text-left">We understand that every organization is unique, with distinct HR needs and challenges. We work closely with our clients to tailor our services to their specific requirements, at the center of everything we do allows us to deliver customized, effective, and value-driven HR services.</p>
+              </div>
+          
+              <!-- Content Item 2 -->
+              <div class="flex flex-col items-center text-center md:items-start md:text-left xl:items-left xl:text-left">
+                <h1 class="text-headercolor text-[100px] font-extralight">02.</h1>
+                <h3 class="font-bold text-[32px] mb-4">Expertise and innovation</h3>
+                <p class="leading-relaxed xl:text-left">We leverage the latest HR technologies and best practices to streamline processes, improve efficiency, and enhance the overall HR experience for our clients. With a commitment to excellence, we provide cutting-edge solutions that empower organizations to manage their talent effectively.</p>
+              </div>
+          
+              <!-- Content Item 3 -->
+              <div class="flex flex-col items-center text-center md:items-start md:text-left xl:items-left xl:text-left">
+                <h1 class="text-headercolor text-[100px] font-extralight">03.</h1>
+                <h3 class="font-bold text-[32px] mb-4">Integrity and compliance</h3>
+                <p class="leading-relaxed xl:text-left xl">We uphold the highest standards of integrity and compliance. Our comprehensive knowledge of labor laws, regulations, and industry standards ensures that our clients remain compliant with HR and legal requirements. You can rely on us to maintain the utmost confidentiality and ethical standards in all our HR services.</p>
+              </div>
+            </div>
+          </div>
+          
+        
+        
+        
+
+         <!-- our achievement -->
+
+         <div class="bg-[#EBEBEB] px-4 flex justify-between items-center ">
+          
+          <div class="xl:w-1/2 my-14 mx-1 lg:px-36 xl:px-14 md:px-28 md:my-14 ">
+              <h2 class=" text-3xl lg:text-[44px] font-bold mb-10  text-left wow animate__animated animate__fadeInUp animate__delay-0.5s">Our achievements</h2>
+              <p class=" text-[17px] lg:text-[17px] font-semibold text-gray-600 leading-relaxed mb-14 text-left wow animate__animated animate__fadeInUp animate__delay-0.5s ">
+                  Over the last two decades in our growth journey, with robust systems and processes, we have been benchmarked for quality & reliability. TalentPro aims to streamline HR processes, improve efficiency, reduce administrative burdens, and ensure that businesses remain compliant with relevant laws and regulations.
+              </p>
+              <div class="flex-row md:grid grid-cols-2 justify-center gap-8 text-center lg:text-left">
+                  <div>
+                      <span class="text-4xl lg:text-4xl font-bold text-[#32508C]">1500+</span>
+                      <p class="mb-4 text-black">Clients</p>
+                  </div>
+                  <div>
+                      <span class="text-4xl lg:text-4xl font-bold text-[#32508C]">98.9%</span>
+                      <p class="mb-4 text-black">Client retention</p>
+                  </div>
+                  <div>
+                      <span class="text-4xl lg:text-4xl font-bold text-[#32508C]">50000+</span>
+                      <p class="mb-4 text-black">Associates</p>
+                  </div>
+                  <div>
+                      <span class="text-4xl lg:text-4xl font-bold text-[#32508C]">100%</span>
+                      <p class=" text-black">Data security</p>
+                  </div>
+              </div>
+          </div> 
+    
+          <!-- Right Side: Image -->
+
+          <div class="relative w-1/2 hidden xl:block h-[700px]">
+            <!-- Gradient Overlay -->
+            <div class="absolute inset-0 bg-gradient-overlay"></div>
+            <!-- Image -->
+            <img 
+                src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/end-to-end-hr-services-achievements-home.jpg?time=1716630909"
+                alt="Achievements"
+                class="w-full h-full object-cover"
+            />
+        </div>
+        
+        
+        
+      </div>
+
+
+      <!-- cards -->
+
+
+      <div class="bg-[#FFFBF2] px-2 py-16 xl:p-20 ">
+       
+        <h2 class="text-center text-3xl  lg:text-5xl font-bold mb-12">Our end to end HR outsourcing services</h2>
+    
+       <div class=" flex justify-center wow animate__animated animate__fadeInUp animate__delay-0.5s">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-4  max-w-screen-xl">
+            
+        <div class="relative group overflow-hidden h-72 rounded-lg shadow-lg bg-gray-100 ">
+                <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/payroll-services-home-1.jpg?time=1716630909" alt="Payroll services" class="w-full h-full object-cover ">
+                <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 ">
+
+                <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+                  <div class="group-hover:hidden flex flex-col items-center justify-center h-screen  transition-opacity duration-600 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="40%" height="40%" fill="rgb(256 196 0)"><g id="THR_money_in_envelope_" data-name="THR (money in envelope)"><path d="M48,22.85c-.09-.59-.11-.47-4.13-3.1C47.44,6.34,47.36,7.12,47.07,6.61S47.3,6.37,36,3.34V1a1,1,0,0,0-1-1H13a1,1,0,0,0-1,1V3.34L1.54,6.14A1,1,0,0,0,.83,7.37L4.15,19.75c-3.94,2.57-4,2.49-4.12,3C0,23,0,21.89,0,44a4,4,0,0,0,4,4H44a4,4,0,0,0,4-4C48,21.24,48,23.05,48,22.85ZM34.05,32.64l12-7.79c0,20.91,0,19.26-.07,19.66ZM45.17,23l-2.66,1.73.79-2.95ZM45,7.82c-.52,1.94,1.87-7-5,18.55L36,29V9.55l2.31.62a3.07,3.07,0,0,0,1.29,2.24l-1.34,5a1,1,0,0,0,1.94.52l1.55-5.79A1,1,0,0,0,41,10.91a1,1,0,0,1-.7-1.23,1,1,0,0,0-.71-1.23L36,7.48V5.41ZM34,2V30.28L24,36.81,14,30.28V2ZM2.07,44.51C2,44.11,2,45.73,2,24.85l12,7.79ZM12,5.41V7.48l-3.63,1a1,1,0,0,0-.71,1.23A1,1,0,0,1,7,10.91a1,1,0,0,0-.71,1.22L7.8,17.92a1,1,0,0,0,1.94-.52l-1.34-5a3.07,3.07,0,0,0,1.29-2.24L12,9.55V29L8,26.37C7.24,23.55,3.78,10.64,3,7.82ZM5.49,24.73,2.83,23,4.7,21.78Zm-2,21.2L15.66,33.75c8.08,5.28,8.11,5.6,8.89,5.09l7.79-5.09L44.51,45.93C44,46.06,3.9,46,3.49,45.93Z"></path><path d="M18,13V7.83A3,3,0,0,0,19.83,6h8.34A3,3,0,0,0,30,7.83V13a1,1,0,0,0,2,0V7a1,1,0,0,0-1-1,1,1,0,0,1-1-1,1,1,0,0,0-1-1H19a1,1,0,0,0-1,1,1,1,0,0,1-1,1,1,1,0,0,0-1,1v6A1,1,0,0,0,18,13Z"></path><path d="M24,30a8,8,0,1,0-8-8A8,8,0,0,0,24,30Zm0-14a6,6,0,1,1-6,6A6,6,0,0,1,24,16Z"></path><path d="M23.62,9.08A1,1,0,1,0,25,10,1,1,0,0,0,23.62,9.08Z"></path></g></svg>
+                        <h3 class="text-white font-bold text-xl">Payroll services</h3>
+                    </div>
+                    <div class="hidden group-hover:block px-4 text-left lg:pl-8">
+                        <h3 class="text-black font-bold text-sm lg:text-lg mb-4">Statutory compliance</h3>
+                        <p class="text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+                        <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+    
+            <!-- Repeat similar blocks for the other 7 cards, just change the image and content as needed -->
+            <!-- Card 2 -->
+            <div class="relative group overflow-hidden rounded-lg h-72 shadow-lg bg-gray-100">
+                <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/compliance-service-home.jpg?time=1716630909" alt="IT staffing" class="w-full h-full object-cover ">
+                <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 transition-colors duration-600 ease-in-out">
+                <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+                  <div class="group-hover:hidden flex flex-col items-center justify-center h-screen">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" height="40%" viewBox="0 0 511.875 511.875" width="40%" fill="rgb(256 196 0)"><g><path d="m236.677 98.562c0-33.05-26.888-59.938-59.938-59.938s-59.938 26.888-59.938 59.938 26.888 59.938 59.938 59.938 59.938-26.888 59.938-59.938zm-104.875 0c0-24.778 20.159-44.938 44.938-44.938s44.938 20.159 44.938 44.938-20.16 44.938-44.939 44.938-44.937-20.159-44.937-44.938z"></path><path d="m193.507 73.806-24.049 28.503-9.139-12.653-12.16 8.783 20.381 28.217 36.431-43.177z"></path><path d="m64.364 181.5h134.875v15h-134.875z"></path><path d="m64.364 219.5h134.875v15h-134.875z"></path><path d="m64.364 256.438h134.875v15h-134.875z"></path><path d="m64.364 293.53h74.875v15h-74.875z"></path><path d="m482.982 424.624-35.411-20.835-7.606 12.928 35.411 20.835c9.418 5.542 12.572 17.713 7.031 27.13-5.542 9.419-17.712 12.569-27.13 7.03l-100.558-59.168 20.099-34.159 52.274 30.757 7.606-12.928-52.427-30.848c2.32-5.243 2.811-11.071 1.351-16.704-1.712-6.607-5.895-12.152-11.777-15.613-5.883-3.461-12.763-4.425-19.369-2.713-4.06 1.053-7.716 3.041-10.737 5.78v-49.557c5.111-9.06 4.777-19.777 0-28.29v-258.269h-250.61l-79.39 79.522v191.478h15v-180.875h75v-75.125h225v229.911l-61.384-36.118c-13.697-8.061-31.395-3.472-39.453 10.224-3.904 6.635-4.99 14.393-3.059 21.844 1.495 5.77 4.667 10.816 9.099 14.614l-54.054 91.867c-5.473-2.031-11.424-2.354-17.194-.856-7.452 1.931-13.706 6.647-17.61 13.283-5.511 9.367-5.104 20.605.083 29.353h-116.428v-102.622h-15v117.621h149.896l38.885 22.879h-83.656v34.5h-25.125v50.375h230v-50.375h-25v-34.5h-37.644c3.545-6.46 4.486-13.905 2.629-21.069-.159-.613-.343-1.214-.539-1.81h40.533c-2.471 10.599 2.064 22.039 11.926 27.842 3.98 2.342 8.416 3.54 12.915 3.54 2.151 0 4.316-.273 6.454-.827 5.633-1.46 10.488-4.721 13.944-9.293l100.713 59.257c5.531 3.255 11.602 4.802 17.598 4.802 11.941 0 23.585-6.138 30.066-17.152 9.736-16.547 4.195-37.93-12.352-47.666zm-396.243-349.499h-49.415l49.415-49.497zm152.092 151.498c1.872-3.181 4.87-5.443 8.443-6.369 1.156-.3 2.327-.447 3.49-.447 2.433 0 4.832.648 6.984 1.914l65.902 38.776c6.567 3.864 8.767 12.352 4.903 18.919-3.865 6.566-12.351 8.764-18.918 4.902l-65.916-38.785c-3.174-1.873-5.431-4.867-6.356-8.436-.926-3.573-.405-7.292 1.468-10.474zm87.908 72.75v44.273l-34.245-20.09 14.19-24.117c3.23 1.191 6.583 1.782 9.91 1.782 3.473 0 6.909-.64 10.145-1.848zm-82.102-35.895 48.88 28.761-53.587 91.074-48.88-28.761zm-83.721 122.816c-6.567-3.864-8.767-12.352-4.903-18.919 1.872-3.182 4.871-5.443 8.444-6.369 1.156-.3 2.327-.448 3.49-.448 2.431 0 4.828.647 6.979 1.912l65.909 38.78c3.181 1.872 5.443 4.871 6.369 8.444s.405 7.293-1.467 10.474v.001c-1.872 3.181-4.87 5.443-8.443 6.369-3.574.926-7.293.405-10.475-1.467zm120.823 55.706v19.5h-47.375v15h72.375v20.375h-200v-20.375h112.5v-15h-87.375v-19.5zm-27.823-52.879 12.898-21.92 37.255 21.92zm20.505-34.849 10.467-17.789 41.1 24.112-10.498 17.842zm61.277 61.019c-1.43 2.43-3.72 4.157-6.449 4.864s-5.569.31-7.999-1.12c-5.015-2.951-6.694-9.433-3.744-14.447l32.284-54.867c1.43-2.43 3.72-4.157 6.448-4.864.883-.229 1.777-.342 2.665-.342 1.858 0 3.69.495 5.334 1.462 2.43 1.43 4.157 3.72 4.864 6.448.707 2.725.31 5.562-1.115 7.991z"></path></g></svg>
+                    <h3 class="text-white font-bold text-xl">Statutory compliance</h3>
+                </div>
+                    <div class="hidden group-hover:block px-4 text-left pl-8">
+                        <h3 class="text-black font-bold text-sm lg:text-lg mb-4">Statutory compliance</h3>
+                        <p class="  text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+                        <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- card3 -->
+
+            <div class="relative group overflow-hidden rounded-lg h-72 shadow-lg bg-gray-100">
+              <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/it-staffing-solutions-home-1.jpg?time=1716630909" alt="IT staffing" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 transition-colors duration-600 ease-in-out">
+              <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+                <div class="group-hover:hidden flex flex-col items-center justify-center h-screen">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="40%" viewBox="0 0 496 496" width="40%" fill="rgb(256 196 0)"><path d="m456 112h-112v-16c0-52.9375-43.0625-96-96-96s-96 43.0625-96 96v16h-112c-22.054688 0-40 17.945312-40 40v256c0 22.054688 17.945312 40 40 40h104v32h-32v16h272v-16h-32v-32h104c22.054688 0 40-17.945312 40-40v-256c0-22.054688-17.945312-40-40-40zm-144 48v-24c8.824219 0 16 7.175781 16 16s-7.175781 16-16 16h-.550781c.328125-2.625.550781-5.289062.550781-8zm-64-144c44.113281 0 80 35.886719 80 80v28.449219c-4.726562-2.753907-10.144531-4.449219-16-4.449219h-2.089844c-4.8125-13.921875-17.910156-24-33.445312-24-3.832032 0-7.609375.617188-11.242188 1.832031l-17.222656 5.734375-17.222656-5.742187c-3.632813-1.207031-7.417969-1.824219-11.25-1.824219-15.535156 0-28.632813 10.078125-33.449219 24h-2.078125c-5.855469 0-11.273438 1.695312-16 4.449219v-28.449219c0-44.113281 35.886719-80 80-80zm80 272v48h-160v-48h-16v48h-32v-37.886719c0-17.714843 11.886719-33.511719 28.910156-38.433593l30.984375-8.945313 24.890625 58.074219 43.214844-34.5625 43.207031 34.570312 24.890625-58.074218 30.980469 8.945312c17.035156 4.90625 28.921875 20.710938 28.921875 38.425781v37.886719h-32v-48zm-114.320312-47.007812 22.34375 22.34375-24.816407 19.847656-15.824219-36.917969zm71.113281 42.191406-24.816407-19.847656 22.34375-22.34375 18.289063 5.28125zm-12.792969-54.496094-24 24-24-24v-9.398438c7.414062 3.015626 15.511719 4.710938 24 4.710938s16.585938-1.695312 24-4.710938zm-24-20.6875c-26.472656 0-48-21.527344-48-48v-28.472656c0-10.765625 8.761719-19.527344 19.527344-19.527344 2.105468 0 4.175781.335938 6.175781 1l22.296875 7.433594 22.289062-7.433594c2-.664062 4.078126-1 6.175782-1 10.773437 0 19.535156 8.761719 19.535156 19.527344v28.472656c0 26.472656-21.527344 48-48 48zm-63.449219-40h-.550781c-8.824219 0-16-7.175781-16-16s7.175781-16 16-16v24c0 2.710938.222656 5.375.550781 8zm-144.550781-40h112v24c0 17.648438 14.351562 32 32 32h4.710938c4.144531 10.199219 10.832031 19.089844 19.289062 25.878906v16.105469l-63.519531 18.320313c-23.832031 6.878906-40.480469 29-40.480469 53.808593v53.886719h288v-53.886719c0-24.808593-16.648438-46.921875-40.480469-53.808593l-63.519531-18.320313v-16.105469c8.457031-6.789062 15.144531-15.679687 19.289062-25.878906h4.710938c17.648438 0 32-14.351562 32-32v-24h112c13.230469 0 24 10.769531 24 24v232h-341.574219l-24-16h-98.425781v-216c0-13.230469 10.769531-24 24-24zm416 304h-280v16h160v32h-176v-48h-120c-13.230469 0-24-10.769531-24-24v-24h93.574219l24 16h346.425781v8c0 13.230469-10.769531 24-24 24zm0 0"></path><path d="m96 400h16v16h-16zm0 0"></path><path d="m64 400h16v16h-16zm0 0"></path><path d="m32 400h16v16h-16zm0 0"></path><path d="m32 144h104v16h-104zm0 0"></path><path d="m32 176h104v16h-104zm0 0"></path><path d="m32 208h104v16h-104zm0 0"></path><path d="m408 352h56v16h-56zm0 0"></path><path d="m408 320h56v16h-56zm0 0"></path><path d="m408 288h56v16h-56zm0 0"></path><path d="m408 256h56v16h-56zm0 0"></path></svg>
+                  <h3 class="text-white font-bold text-xl">It staffing</h3>
+              </div>
+                  <div class="hidden group-hover:block px-4 text-left pl-8">
+                      <h3 class="text-black font-bold text-sm lg:text-lg mb-2">Statutory compliance</h3>
+                      <p class=" text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+                      <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- card4 -->
+
+          <div class="relative group overflow-hidden rounded-lg h-72 shadow-lg bg-gray-100">
+            <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/training-and-development-services-home-1.jpg?time=1716630909" alt="IT staffing" class="w-full h-full object-cover ">
+            <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 transition-colors duration-600 ease-in-out">
+            <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+              <div class="group-hover:hidden flex flex-col items-center justify-center h-screen">
+               <svg xmlns="http://www.w3.org/2000/svg" id="Line" width="40%" height="40%" fill="rgb(256 196 0)" viewBox="0 0 512 512"><g><path d="M32,252.361a11.936,11.936,0,0,1,6.633-10.734l14.673-7.336-5.225,36.578a8,8,0,0,0,11.5,8.286L104,256.944l44.422,22.211a8,8,0,0,0,11.5-8.286l-5.225-36.578,14.673,7.336A11.936,11.936,0,0,1,176,252.361V296h16V252.361a27.847,27.847,0,0,0-15.478-25.044l-24.58-12.29-.023-.159-.23.033-8.612-4.306-5.247-26.239.576-.346A28.144,28.144,0,0,0,152,160V118a38.043,38.043,0,0,0-38-38H94a38.043,38.043,0,0,0-38,38v42a28.144,28.144,0,0,0,13.594,24.01l.577.346L64.923,210.6,56.311,214.9l-.23-.033-.023.159-24.58,12.29A27.847,27.847,0,0,0,16,252.361V296H32Zm48.685-38.99L84.739,193.1l4.855,2.913a27.954,27.954,0,0,0,28.812,0l4.855-2.913,4.055,20.274L104,236.687Zm61.236,44.645-24.416-12.208,19.838-19.838ZM72,118A22.025,22.025,0,0,1,94,96h20a22.025,22.025,0,0,1,22,22v42a12.059,12.059,0,0,1-5.826,10.29l-20,12a11.978,11.978,0,0,1-12.348,0l-20-12A12.059,12.059,0,0,1,72,160ZM70.657,225.97,90.5,245.808,66.079,258.016Z"></path><rect x="16" y="312" width="16" height="96"></rect><rect x="96" y="280" width="16" height="16"></rect><path d="M373.594,184.01l.576.345-5.247,26.24-8.612,4.306-.23-.033-.023.159-24.58,12.29A27.847,27.847,0,0,0,320,252.361V296h16V252.361a11.936,11.936,0,0,1,6.633-10.734l14.673-7.336-5.225,36.578a8,8,0,0,0,11.5,8.286L408,256.944l44.422,22.211a8,8,0,0,0,11.5-8.286l-5.225-36.578,14.673,7.336A11.936,11.936,0,0,1,480,252.361V408h16V252.361a27.847,27.847,0,0,0-15.478-25.044l-24.58-12.29-.023-.159-.23.033-8.612-4.306-5.247-26.239.576-.346A28.144,28.144,0,0,0,456,160V118a38.043,38.043,0,0,0-38-38H398a38.043,38.043,0,0,0-38,38v42A28.144,28.144,0,0,0,373.594,184.01Zm11.09,29.361,4.055-20.274,4.855,2.913a27.954,27.954,0,0,0,28.812,0l4.855-2.913,4.055,20.274L408,236.687Zm61.237,44.645-24.416-12.208,19.838-19.838ZM376,118a22.025,22.025,0,0,1,22-22h20a22.025,22.025,0,0,1,22,22v42a12.059,12.059,0,0,1-5.826,10.29l-20,12a11.978,11.978,0,0,1-12.348,0l-20-12A12.059,12.059,0,0,1,376,160Zm18.5,127.808-24.416,12.208,4.578-32.046Z"></path><rect x="400" y="280" width="16" height="16"></rect><path d="M5.078,448.653c13.059,5.588,25.913,11.783,38.294,18.453-3.019,11.8-5.584,23.717-7.639,35.522a8,8,0,0,0,11.814,8.339,423.3,423.3,0,0,1,117.794-44.982l.025,0c1.337-.293,2.684-.58,4.032-.862q2.063-.43,4.131-.84h0a8,8,0,0,0,6.405-7.06c1.706-17.25,4.028-34.7,6.911-51.953a481.89,481.89,0,0,1,108.5-3.49l1.306-15.946A499.928,499.928,0,0,0,91.705,412.182L69.53,352.134a560.709,560.709,0,0,1,373.164,0L420.521,412.18a496.619,496.619,0,0,0-107.606-24.751l-1.83,15.9q7.155.824,14.282,1.861c2.889,17.284,5.216,34.76,6.925,52.032a8,8,0,0,0,6.4,7.06h0q2.065.409,4.127.839c1.349.282,2.7.57,4.036.863l.027.006a423.275,423.275,0,0,1,117.792,44.981,8,8,0,0,0,11.814-8.339c-2.054-11.8-4.618-23.723-7.639-35.522,12.381-6.67,25.236-12.865,38.294-18.453a8,8,0,0,0,.786-14.322,514.218,514.218,0,0,0-66.86-31.618l19.422-52.6a8,8,0,0,0-4.733-10.275,576.065,576.065,0,0,0-180.929-35.362l10.824-10.824a8,8,0,0,0,2.273-6.714L274.5,186.192l25.926,12.963a8,8,0,0,0,11.5-8.286l-5.225-36.578,14.673,7.336A11.936,11.936,0,0,1,328,172.361V208h16V172.361a27.847,27.847,0,0,0-15.478-25.044l-24.58-12.29-.023-.158-.228.032-8.614-4.306-5.247-26.239.576-.346A28.144,28.144,0,0,0,304,80V64H288V80a12.059,12.059,0,0,1-5.826,10.29l-20,12a11.978,11.978,0,0,1-12.348,0l-20-12A12.059,12.059,0,0,1,224,80V38a22.025,22.025,0,0,1,22-22h20a22.025,22.025,0,0,1,22,22V48h16V38A38.043,38.043,0,0,0,266,0H246a38.043,38.043,0,0,0-38,38V80a28.144,28.144,0,0,0,13.594,24.01l.577.346L216.923,130.6l-8.614,4.306-.228-.032-.023.158-24.58,12.29A27.847,27.847,0,0,0,168,172.361V208h16V172.361a11.936,11.936,0,0,1,6.633-10.734l14.673-7.336-5.225,36.578a8,8,0,0,0,11.5,8.286L237.5,186.192l-4.9,36.751,15.859,2.114,6.335-47.512,1.2-.6,1.2.6,14.346,107.594L256,300.687l-15.548-15.548,5.878-44.082-15.86-2.114-6.4,48a8,8,0,0,0,2.273,6.714l10.831,10.831A576.076,576.076,0,0,0,56.463,339.843a8,8,0,0,0-4.733,10.276l19.422,52.594a514.086,514.086,0,0,0-66.86,31.619,8,8,0,0,0,.786,14.321Zm336.948-40.739a480.653,480.653,0,0,1,59.687,14.846,421.792,421.792,0,0,0-54.137,26.694C346.1,435.64,344.24,421.729,342.026,407.914ZM485.97,440.605c-10.343,4.838-20.5,10.025-30.335,15.5a8,8,0,0,0-3.833,9.079c2.128,7.872,4.048,15.818,5.743,23.761a439,439,0,0,0-87.415-33.767,414.747,414.747,0,0,1,57.787-25.228h0q.358-.125.708-.285a8,8,0,0,0,4.158-4.5l2.748-7.443A498.577,498.577,0,0,1,485.97,440.605ZM240.193,166.959l-.123-.016-.011.083-21.98,10.99,4.578-32.046L242.5,165.808ZM256,156.687l-23.316-23.316,4.055-20.274,4.855,2.913a27.954,27.954,0,0,0,28.812,0l4.855-2.913,4.055,20.274Zm13.5,9.121,19.838-19.838,4.578,32.046-21.98-10.99-.011-.083-.123.016ZM170.187,407.984c-2.208,13.79-4.063,27.677-5.538,41.47a421.788,421.788,0,0,0-54.124-26.688A481.251,481.251,0,0,1,170.187,407.984Zm-93.492,9.741,2.748,7.442a8,8,0,0,0,4.159,4.5q.348.161.707.286h0A414.787,414.787,0,0,1,142.1,455.176,439,439,0,0,0,54.68,488.943c1.7-7.944,3.615-15.892,5.743-23.761A8,8,0,0,0,56.59,456.1c-9.836-5.473-19.991-10.66-30.335-15.5A498.549,498.549,0,0,1,76.695,417.725Z"></path></g></svg>
+                <h3 class="text-white font-bold text-xl">Staffing solutions</h3>
+            </div>
+                <div class="hidden group-hover:block px-4 text-left pl-8">
+                    <h3 class="text-black font-bold text-sm lg:text-lg mb-4">Statutory compliance</h3>
+                    <p class=" text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+                    <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- card5 -->
+
+        <div class="relative group overflow-hidden rounded-lg h-72 shadow-lg bg-gray-100">
+          <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/recruitment-services-home.jpg?time=1716630909" alt="IT staffing" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 transition-colors duration-600 ease-in-out">
+          <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+            <div class="group-hover:hidden flex flex-col items-center justify-center h-screen">
+              <svg xmlns="http://www.w3.org/2000/svg" id="Line" height="40%" viewBox="0 0 100 100" width="40%" fill="rgb(256 196 0)"><path d="m57.076 58.013c2.326-2.002 3.833-4.93 3.833-8.232 0-6.015-4.894-10.91-10.909-10.91s-10.909 4.896-10.909 10.91c0 3.302 1.507 6.23 3.833 8.232-4.829 2.56-8.163 7.58-8.163 13.415 0 2.978 4.5 2.978 4.5 0 0-5.921 4.818-10.74 10.739-10.74s10.739 4.819 10.739 10.74c0 2.978 4.5 2.978 4.5 0 0-5.835-3.334-10.855-8.163-13.415zm-13.485-8.233c0-3.533 2.875-6.41 6.409-6.41s6.409 2.877 6.409 6.41-2.876 6.408-6.409 6.408-6.409-2.875-6.409-6.408z"></path><path d="m82.879 27.142c2.326-2.002 3.833-4.93 3.833-8.232 0-6.014-4.894-10.91-10.909-10.91s-10.909 4.896-10.909 10.91c0 3.299 1.504 6.225 3.826 8.227-1.267.67-2.475 1.461-3.529 2.484-2.136 2.077 1.011 5.3 3.135 3.229 2.014-1.954 4.668-3.032 7.477-3.032 5.921 0 10.739 4.819 10.739 10.74 0 2.978 4.5 2.978 4.5 0 0-5.835-3.334-10.856-8.163-13.416zm-13.484-8.232c0-3.533 2.875-6.41 6.409-6.41s6.409 2.877 6.409 6.41-2.875 6.407-6.409 6.407-6.409-2.874-6.409-6.407z"></path><path d="m31.667 32.844c2.154 2.073 5.262-1.171 3.132-3.234-1.052-1.019-2.256-1.806-3.519-2.473 2.322-2.002 3.825-4.927 3.825-8.226 0-6.015-4.894-10.911-10.908-10.911s-10.909 4.896-10.909 10.91c0 3.302 1.507 6.23 3.833 8.232-4.829 2.56-8.163 7.58-8.163 13.415 0 2.978 4.5 2.978 4.5 0 0-5.921 4.818-10.74 10.739-10.74 2.803 0 5.456 1.076 7.47 3.027zm-13.879-13.934c0-3.533 2.875-6.41 6.409-6.41s6.409 2.877 6.409 6.41-2.875 6.407-6.409 6.407-6.409-2.874-6.409-6.407z"></path><path d="m72.886 73.274c6.577-10.45 5.34-24.446-3.752-33.536-10.55-10.553-27.718-10.553-38.268 0-10.551 10.55-10.551 27.718 0 38.268 5.275 5.276 12.205 7.913 19.134 7.913 5.012 0 10.015-1.4 14.401-4.16l8.439 8.438c2.339 2.339 6.143 2.338 8.484 0 2.339-2.338 2.339-6.146 0-8.484zm-38.838 1.549c-8.796-8.795-8.796-23.109 0-31.904 4.397-4.397 10.175-6.598 15.952-6.598s11.555 2.2 15.952 6.598c8.796 8.795 8.796 23.109 0 31.904-8.795 8.795-23.109 8.795-31.904 0zm41.973 12.191-8.002-8.001c1.413-1.266.861-.714 2.121-2.121l8.002 8.001c1.405 1.407-.724 3.524-2.121 2.121z"></path></svg>
+              <h3 class="text-white font-bold text-xl">Recruitment</h3>
+          </div>
+              <div class="hidden group-hover:block px-4 text-left pl-8">
+                  <h3 class="text-black font-bold text-sm lg:text-lg mb-4">Statutory compliance</h3>
+                  <p class="text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+                  <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- card6 -->
+
+      <div class="relative group overflow-hidden rounded-lg shadow-lg h-72 bg-gray-100">
+        <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/training-and-development-services-home-1.jpg?time=1716630909" alt="IT staffing" class="w-full h-full object-cover ">
+        <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 transition-colors duration-600 ease-in-out">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+          <div class="group-hover:hidden flex flex-col items-center justify-center h-screen">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" width="40%" height="40%" fill="rgb(256 196 0)" viewBox="0 0 512 512" data-name="Layer 1"><path d="m485.411 207.429c-.51-2.596-1.095-5.193-1.734-7.772 1.019-1.223 1.625-2.79 1.625-4.478v-44.874c0-3.344-2.365-6.221-5.646-6.868l-23.422-4.619-9.027-21.763 13.304-19.839c1.862-2.777 1.501-6.484-.864-8.849l-31.73-31.73c-2.364-2.366-6.072-2.727-8.848-.864l-19.84 13.304-21.763-9.027-4.618-23.422c-.646-3.281-3.523-5.646-6.867-5.646h-44.875c-3.344 0-6.221 2.365-6.867 5.646l-4.618 23.422-21.763 9.027-19.84-13.304c-2.775-1.863-6.483-1.502-8.848.864l-31.73 31.73c-1.013 1.013-1.635 2.277-1.895 3.604-15.174 5.773-28.631 12.997-40.201 21.59v-102.561c0-3.866-3.134-7-7-7h-129.193c-13.786 0-25.002 11.215-25.002 25.001v163.605c0 12.031 9.789 21.82 21.82 21.82h108.456c-2.136 7.751-3.995 14.846-4.916 20.156-2.617 15.135 3.063 22.529 7.212 27.928 2.812 3.658 4.508 5.866 4.394 10.306-.188 7.469-6.979 21.501-20.201 41.741-.521.806-1.027 1.574-1.517 2.313-4.048 6.127-7.87 11.914-6.671 21.067 1.475 11.267 11.05 13.963 17.385 15.748 5.262 1.481 8.562 2.546 10.07 5.62.263.537.694 1.418-.212 5.922-3.274 7.664-3.558 13.63-.9 18.727 1.041 1.997 2.399 3.578 3.932 4.877-1.184 1.479-2.312 3.191-3.241 5.143-.119.25-.223.508-.312.771-1.143 3.39-1.497 10.675 2.039 17.226.124.663.19 2.419-.394 7.056-1.02 8.102-2.727 21.663 7.522 30.075 5.515 4.526 12.958 5.794 21.237 5.794 4.011 0 8.22-.298 12.497-.667.105-.009.212-.021.316-.035 14.827-1.964 28.88-4.473 42.144-7.503 3.594 2.192 5.754 7.461 6.423 15.712.112 2.768-.009 33.204-.283 38.215-.105 1.92.584 3.798 1.906 5.195s3.16 2.188 5.083 2.188h132.423c1.895 0 3.708-.768 5.026-2.128s2.029-3.197 1.97-5.09c-1.618-51.954 22.945-98.039 46.701-142.606 26.666-50.029 51.853-97.283 41.352-150.746zm-231.815-95.055-12.188-18.176 23.593-23.592 18.176 12.188c1.945 1.305 4.416 1.55 6.58.652l28.688-11.9c2.162-.897 3.733-2.815 4.186-5.112l4.23-21.453h33.365l4.23 21.453c.452 2.296 2.023 4.215 4.186 5.112l28.688 11.9c2.164.898 4.635.653 6.58-.652l18.176-12.188 23.593 23.592-12.188 18.176c-1.306 1.946-1.55 4.416-.652 6.581l11.9 28.688c.897 2.162 2.815 3.732 5.111 4.186l21.452 4.23v33.365l-21.452 4.229c-2.296.453-4.214 2.023-5.111 4.186l-11.9 28.689c-.897 2.165-.653 4.635.652 6.581l12.188 18.175-23.593 23.592-18.176-12.188c-1.945-1.305-4.416-1.55-6.58-.652l-28.688 11.9c-2.162.897-3.733 2.815-4.186 5.112l-4.23 21.452h-33.365l-4.23-21.452c-.452-2.296-2.023-4.215-4.186-5.112l-28.688-11.9c-2.164-.897-4.635-.653-6.58.652l-18.176 12.188-23.593-23.592 12.188-18.175c1.306-1.946 1.55-4.417.652-6.581l-11.9-28.689c-.897-2.162-2.815-3.733-5.111-4.186l-21.452-4.229v-33.365l21.452-4.23c2.296-.453 4.214-2.023 5.111-4.186l11.9-28.688c.897-2.165.653-4.635-.652-6.581zm-204.445-94.374h122.191v152.786h-125.373c-2.755 0-5.39.518-7.819 1.455v-143.24c0-6.066 4.936-11.001 11.002-11.001zm-11.002 174.605c0-4.312 3.508-7.82 7.819-7.82h125.374v15.64h-125.372c-4.312 0-7.82-3.508-7.82-7.82zm345.142 301.395h-118.187c.164-11.294.228-30.652.092-32.617-.604-7.586-2.321-13.76-5.119-18.51 21.831-5.951 41.245-13.459 58.036-22.485 3.405-1.831 4.682-6.075 2.851-9.48s-6.073-4.681-9.479-2.851c-28.794 15.478-65.968 26.324-110.498 32.238-9.241.794-19.397 1.342-23.489-2.015-3.947-3.241-3.441-10.129-2.513-17.505.801-6.363.949-11.044-.782-14.715-.085-.18-.177-.355-.276-.527-1.296-2.233-1.363-4.992-1.226-6.125 1.71-3.099 4.758-5.169 5.799-5.877.266-.18.465-.32.592-.414 2.013-1.491 3.075-3.945 2.786-6.434-.29-2.488-1.887-4.632-4.189-5.622-2.875-1.236-5.591-2.403-6.204-3.579-.804-1.542.842-5.602 1.587-7.275.198-.444.35-.908.451-1.384 1.295-6.065 1.619-10.803-.769-15.678-4.339-8.851-12.724-11.212-18.847-12.936-6.682-1.882-7.093-2.521-7.299-4.09-.496-3.784.762-5.918 4.471-11.533.516-.78 1.05-1.589 1.577-2.406 15.264-23.362 22.189-38.478 22.455-49.009.241-9.394-3.933-14.826-7.287-19.191-3.535-4.602-6.09-7.926-4.52-17.009.952-5.486 3.267-13.984 5.65-22.545h9.389c3.866 0 7-3.134 7-7v-75.837c12.41-11.056 27.928-20.094 46.223-26.929l8.313 12.397-9.027 21.763-23.422 4.619c-3.28.647-5.646 3.524-5.646 6.868v44.874c0 3.344 2.365 6.221 5.646 6.868l23.422 4.618 9.027 21.763-13.304 19.839c-1.862 2.777-1.501 6.484.864 8.849l31.73 31.73c2.364 2.365 6.072 2.726 8.848.864l19.84-13.304 21.763 9.027 4.618 23.422c.646 3.281 3.523 5.646 6.867 5.646h44.875c3.344 0 6.221-2.365 6.867-5.646l4.618-23.422 21.763-9.027 19.84 13.304c2.775 1.862 6.483 1.501 8.848-.864l31.73-31.73c2.365-2.365 2.727-6.071.864-8.849l-13.304-19.839 9.027-21.763 14.073-2.775c.501 2.072.958 4.156 1.367 6.238 9.541 48.575-14.509 93.694-39.97 141.462-23.548 44.179-47.863 89.793-48.414 142.409zm-313.052-428.503h69.015c3.866 0 7-3.134 7-7v-24.662c0-3.866-3.134-7-7-7h-69.015c-3.866 0-7 3.134-7 7v24.662c0 3.866 3.134 7 7 7zm7-24.662h55.015v10.662h-55.015zm283.815 131.906c0-7.49 3.327-14.505 9.128-19.246 2.992-2.446 7.403-2.004 9.85.99 2.446 2.994 2.003 7.403-.99 9.85-2.534 2.071-3.987 5.135-3.987 8.406s1.453 6.335 3.987 8.406c2.993 2.446 3.437 6.856.99 9.85-1.384 1.693-3.396 2.57-5.424 2.57-1.558 0-3.125-.517-4.426-1.58-5.801-4.741-9.128-11.756-9.128-19.246zm-49.022 0c0-3.271-1.453-6.335-3.987-8.406-2.994-2.446-3.438-6.855-.992-9.849 2.447-2.995 6.857-3.438 9.85-.992 5.802 4.74 9.13 11.755 9.13 19.247s-3.328 14.506-9.13 19.247c-1.3 1.062-2.867 1.58-4.425 1.58-2.028 0-4.041-.877-5.425-2.571-2.445-2.994-2.002-7.403.992-9.849 2.534-2.071 3.987-5.134 3.987-8.406zm-53.632 9.179c-1.892 5.721-1.925 12 .13 17.947 2.435 7.048 7.477 12.733 14.065 15.984.219 4.467 1.241 8.81 3.098 12.84 4.706 10.213 14.01 17.491 26.281 20.641 2.945 5.063 7.352 9.277 12.829 11.912 4.094 1.969 8.503 2.927 12.888 2.927 5.557 0 11.071-1.543 15.852-4.508 4.781 2.965 10.295 4.508 15.853 4.508 4.385 0 8.795-.958 12.888-2.927 5.473-2.633 9.878-6.844 12.823-11.902 12.187-3.123 21.44-10.318 26.189-20.441 1.922-4.097 2.975-8.519 3.196-13.07 6.53-3.254 11.66-9.002 14.065-15.965 2.054-5.948 2.021-12.226.129-17.948 5.128-9.52 6.278-21.4 3.032-32.187-2.945-9.784-9.08-17.555-17.383-22.105-.395-3.768-1.368-7.427-2.952-10.857-4.71-10.203-14.008-17.473-26.27-20.621-2.945-5.062-7.353-9.277-12.829-11.912-9.282-4.466-20.185-3.712-28.74 1.596-8.552-5.308-19.456-6.063-28.74-1.596-5.477 2.635-9.885 6.85-12.829 11.912-12.258 3.146-21.552 10.41-26.266 20.609-1.588 3.436-2.563 7.101-2.958 10.875-8.254 4.523-14.368 12.224-17.334 21.941-3.307 10.834-2.175 22.772 2.983 32.346zm107.812-85.067c5.919 2.848 9.505 9.156 8.924 15.697-.58 6.542-5.222 12.12-11.549 13.881-3.725 1.036-5.904 4.896-4.868 8.62 1.037 3.725 4.899 5.905 8.62 4.867 11.911-3.314 20.648-13.815 21.742-26.13.034-.379.037-.755.056-1.132 4.339 2.432 7.618 5.83 9.535 9.982 2.998 6.496 2.444 14.243-1.56 21.815-1.807 3.417-.501 7.653 2.917 9.46 1.043.552 2.162.813 3.266.813 2.511 0 4.938-1.355 6.194-3.729 1.263-2.389 2.277-4.829 3.068-7.288 2.585 2.679 4.561 6.094 5.754 10.057 1.438 4.781 1.613 9.849.602 14.547-1.459-1.1-3.014-2.07-4.673-2.871-3.478-1.68-7.666-.221-9.347 3.26s-.221 7.667 3.261 9.347c1.503.726 2.854 1.706 4.014 2.913 3.679 3.825 4.888 9.317 3.155 14.333-.676 1.956-1.789 3.713-3.205 5.174-.72-2.017-1.589-4.018-2.629-5.985-1.808-3.417-6.045-4.723-9.46-2.916-3.418 1.807-4.724 6.042-2.917 9.46 4.03 7.621 4.565 15.409 1.507 21.927-1.926 4.107-5.185 7.463-9.482 9.87-.019-.378-.022-.754-.056-1.133-1.094-12.314-9.83-22.815-21.741-26.13-3.729-1.039-7.585 1.143-8.62 4.867-1.037 3.725 1.143 7.584 4.866 8.621 6.328 1.761 10.97 7.339 11.55 13.88.581 6.542-3.005 12.85-8.924 15.698-5.074 2.44-11.069 1.955-15.67-1.095v-116.119c0-5.749 3.563-12.466 10.169-13.593 3.811-.65 6.373-4.266 5.724-8.077-.65-3.812-4.272-6.371-8.077-5.724-2.879.491-5.484 1.446-7.815 2.742v-8.816c4.6-3.05 10.594-3.536 15.67-1.095zm-97.406 56.809c1.197-3.921 3.16-7.298 5.722-9.952.791 2.459 1.804 4.899 3.068 7.288 1.256 2.375 3.684 3.729 6.194 3.729 1.104 0 2.223-.262 3.266-.813 3.418-1.807 4.724-6.042 2.917-9.46-4.006-7.576-4.559-15.325-1.557-21.822 1.918-4.15 5.196-7.546 9.532-9.976.019.378.022.754.056 1.133 1.094 12.314 9.83 22.815 21.74 26.13.628.175 1.26.258 1.881.258 3.064 0 5.878-2.028 6.739-5.125 1.037-3.724-1.143-7.583-4.866-8.62-6.327-1.761-10.969-7.339-11.549-13.88-.581-6.542 3.005-12.85 8.924-15.698 5.075-2.443 11.068-1.947 15.669 1.106v116.109c0 5.749-3.563 12.466-10.168 13.593-3.812.65-6.373 4.267-5.724 8.078.582 3.413 3.543 5.824 6.892 5.824.392 0 .788-.033 1.186-.101 2.879-.491 5.484-1.446 7.814-2.742v8.804c-4.601 3.052-10.592 3.548-15.669 1.107-5.919-2.848-9.505-9.156-8.924-15.697.58-6.542 5.222-12.12 11.549-13.881 3.725-1.037 5.903-4.896 4.866-8.621-1.036-3.724-4.893-5.902-8.62-4.867-11.91 3.315-20.646 13.816-21.74 26.13-.034.378-.037.754-.056 1.131-4.343-2.434-7.625-5.836-9.541-9.993-2.992-6.493-2.437-14.236 1.565-21.803 1.807-3.417.501-7.653-2.917-9.46-3.416-1.807-7.651-.501-9.46 2.916-1.044 1.974-1.917 3.984-2.638 6.01-1.412-1.456-2.511-3.218-3.196-5.199-1.733-5.016-.524-10.508 3.155-14.334 1.161-1.207 2.511-2.187 4.013-2.912 3.481-1.681 4.941-5.866 3.261-9.347-1.681-3.481-5.866-4.942-9.347-3.26-1.659.801-3.214 1.772-4.674 2.873-1.02-4.732-.833-9.839.636-14.653z"></path></svg>
+            <h3 class="text-white font-bold text-xl">Training & <br> Development</h3>
+        </div>
+            <div class="hidden group-hover:block px-4 text-left pl-8">
+                <h3 class="text-black font-bold text-sm lg:text-lg mb-4">Statutory compliance</h3>
+                <p class=" text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+                <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- card7 -->
+    <div class="relative group overflow-hidden rounded-lg shadow-lg h-72 bg-gray-100">
+      <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/hr-consulting-services-home.jpg?time=1716630909" alt="IT staffing" class="w-full h-full object-cover ">
+      <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 transition-colors duration-600 ease-in-out">
+      <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+        <div class="group-hover:hidden flex flex-col items-center justify-center h-screen">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" height="40%" viewBox="0 0 512 512" width="40%" fill="rgb(256 196 0)"><path d="m462.15 182.68c8.8-9.6 14.17-22.37 14.17-36.38 0-29.73-24.21-53.92-53.98-53.92s-53.98 24.19-53.98 53.92c0 25.57 17.91 47.02 41.85 52.53-.25.25-.49.49-.74.74l-54.17 54.13h-63.36c-14.57 0-26.42 11.84-26.42 26.4 0 3.69.76 7.2 2.14 10.4h-23.36c1.37-3.19 2.14-6.71 2.14-10.4 0-14.55-11.85-26.4-26.42-26.4h-63.36l-54.17-54.13c-.24-.24-.49-.49-.73-.73 23.96-5.51 41.88-26.96 41.88-52.53 0-29.73-24.23-53.92-54.01-53.92-29.76 0-53.98 24.19-53.98 53.92 0 14.01 5.38 26.78 14.17 36.38-13.49 5.32-23.06 18.47-23.06 33.81v146.55c0 16.27 13.25 29.51 29.54 29.51h71.92v89.94c0 16.27 13.25 29.51 29.54 29.51s29.54-13.24 29.54-29.51v-119.46c0-4.87-1.19-9.46-3.29-13.51h63.99v122.07h-13.48c-11.16 0-20.23 9.06-20.23 20.19v12.21c0 4.42 3.58 8 8 8h67.44c4.42 0 8-3.58 8-8v-12.22c0-11.13-9.08-20.19-20.23-20.19h-13.5v-122.07h63.95c-2.1 4.05-3.29 8.65-3.29 13.51v119.45c0 16.27 13.25 29.51 29.54 29.51s29.54-13.24 29.54-29.51v-89.94h71.92c16.29 0 29.54-13.24 29.54-29.51v-146.54c.01-15.35-9.56-28.49-23.05-33.81zm-180.43 309.1v4.22h-51.44v-4.22c0-2.31 1.9-4.19 4.23-4.19h42.97c2.34 0 4.24 1.88 4.24 4.19zm102.65-345.48c0-20.91 17.04-37.92 37.98-37.92s37.98 17.01 37.98 37.92-17.04 37.92-37.98 37.92-37.98-17.01-37.98-37.92zm-102.83 133.79c0-5.73 4.67-10.4 10.42-10.4h66.67c2.12 0 4.15-.84 5.65-2.34l56.52-56.47c7.58-7.58 14.74-14.74 28.03-14.74 11.24 0 20.38 9.13 20.38 20.35v117.04h-53.48v-65.53l18.91-18.89c3.13-3.12 3.13-8.19.01-11.31-3.12-3.13-8.19-3.13-11.31-.01l-49.01 48.95c-2.55 2.57-5.45 3.76-9.11 3.76h-73.25c-5.76-.01-10.43-4.67-10.43-10.41zm91.67 53.43v-28.12c4.66-1.31 8.88-3.8 12.44-7.37l14.08-14.06v49.55zm-260.94 0v-49.55l14.06 14.04c3.57 3.59 7.79 6.08 12.46 7.39v28.12zm42.52-27.03h202.43v27.03h-202.43zm-65.14-198.11c20.96 0 38.01 17.01 38.01 37.92s-17.05 37.92-38.01 37.92c-20.94 0-37.98-17.01-37.98-37.92s17.04-37.92 37.98-37.92zm-26.48 87.76c13.28 0 20.44 7.16 28.02 14.74l56.52 56.48c1.5 1.5 3.53 2.34 5.65 2.34h66.67c5.75 0 10.42 4.66 10.42 10.4 0 5.73-4.67 10.4-10.42 10.4h-73.25c-3.67 0-6.56-1.2-9.13-3.78l-48.99-48.93c-3.12-3.12-8.19-3.12-11.31.01s-3.12 8.19.01 11.31l18.91 18.89v65.53h-53.48v-117.04c0-11.22 9.14-20.35 20.38-20.35zm108.17 166.9v119.45c0 7.45-6.08 13.51-13.54 13.51s-13.54-6.06-13.54-13.51v-97.94c0-4.42-3.58-8-8-8h-79.93c-7.47 0-13.54-6.06-13.54-13.51v-13.51h115.01c7.47-.01 13.54 6.05 13.54 13.51zm297.87 0c0 7.45-6.08 13.51-13.54 13.51h-79.92c-4.42 0-8 3.58-8 8v97.94c0 7.45-6.08 13.51-13.54 13.51s-13.54-6.06-13.54-13.51v-119.45c0-7.45 6.08-13.51 13.54-13.51h115.01v13.51zm-297.65-218.12h5.25v19.81c0 3.08 1.77 5.88 4.54 7.21 1.1.53 2.28.79 3.46.79 1.79 0 3.56-.6 5.01-1.76l32.46-26.05h40.07c12.19 0 22.11-9.91 22.11-22.09v-6.4h5.25l32.46 26.05c1.45 1.16 3.22 1.76 5.01 1.76 1.18 0 2.36-.26 3.46-.79 2.77-1.33 4.54-4.14 4.54-7.21v-19.81h5.28c12.17 0 22.08-9.9 22.08-22.06v-72.28c0-12.18-9.9-22.09-22.08-22.09h-90.82c-12.19 0-22.11 9.91-22.11 22.09v6.4h-55.97c-12.19 0-22.11 9.91-22.11 22.09v72.25c.01 12.18 9.92 22.09 22.11 22.09zm71.98-122.83c0-3.3 2.8-6.09 6.11-6.09h90.82c3.29 0 6.08 2.79 6.08 6.09v72.28c0 3.34-2.73 6.06-6.08 6.06h-13.28c-4.42 0-8 3.58-8 8v11.13l-21.65-17.37c-1.42-1.14-3.19-1.76-5.01-1.76h-8.06v-49.85c0-12.18-9.92-22.09-22.11-22.09h-18.82zm-78.08 28.49c0-3.36 2.74-6.09 6.11-6.09h90.79c3.37 0 6.11 2.73 6.11 6.09v72.25c0 3.3-2.8 6.09-6.11 6.09h-42.89c-1.82 0-3.59.62-5.01 1.76l-21.65 17.37v-11.13c0-4.42-3.58-8-8-8h-13.25c-3.37 0-6.11-2.73-6.11-6.09v-72.25zm13.71 49.03c0-4.42 3.58-8 8-8h59.57c4.42 0 8 3.58 8 8s-3.58 8-8 8h-59.57c-4.41 0-8-3.58-8-8zm20.3-25.82c0-4.42 3.58-8 8-8h39.28c4.42 0 8 3.58 8 8s-3.58 8-8 8h-39.28c-4.42 0-8-3.58-8-8zm-20.29 0c0-4.42 3.58-8 8-8h.01c4.42 0 8 3.58 8 8s-3.58 8-8 8-8.01-3.58-8.01-8z"></path></svg>
+          <h3 class="text-white font-bold text-xl">HR consulting</h3>
+      </div>
+          <div class="hidden group-hover:block px-4 text-left pl-8">
+              <h3 class="text-black font-bold text-sm lg:text-lg mb-4">Statutory compliance</h3>
+              <p class="text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+              <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- card8 -->
+   <div class="relative group overflow-hidden rounded-lg shadow-lg h-72 bg-gray-100">
+    <img src="https://zv427f.n3cdn1.secureserver.net/wp-content/uploads/2023/09/executive-search-solution-home-1.jpg?time=1716630909" alt="IT staffing" class="w-full h-full object-cover ">
+    <div class="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-white group-hover:bg-opacity-100 transition-colors duration-600 ease-in-out">
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center transition-opacity duration-600 ease-in-out">
+      <div class="group-hover:hidden flex flex-col items-center justify-center h-screen">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" height="40%" viewBox="0 0 512 512" width="40%" fill="rgb(256 196 0)"><path d="m509.657 498.343-108.374-108.374c38.708-41.45 62.439-97.056 62.439-158.109 0-127.848-104.013-231.86-231.861-231.86s-231.861 104.012-231.861 231.86c0 127.849 104.013 231.861 231.861 231.861 61.052 0 116.658-23.731 158.108-62.439l108.374 108.374c1.562 1.562 3.609 2.343 5.657 2.343s4.095-.781 5.657-2.343c3.124-3.123 3.124-8.189 0-11.313zm-277.796-482.343c119.026 0 215.86 96.834 215.86 215.86 0 51.98-18.47 99.726-49.189 137.025v-43.825c0-26.021-9.754-50.965-27.466-70.235-17.599-19.147-41.423-30.976-67.084-33.308-3.59-.325-6.952 1.787-8.216 5.162l-18.013 48.094-15.842 41.592-8.403-44.516 21.115-38.945c1.344-2.479 1.284-5.482-.159-7.905s-4.054-3.908-6.874-3.908h-71.459c-2.82 0-5.432 1.485-6.874 3.908s-1.503 5.426-.159 7.905l21.115 38.945-8.403 44.516-15.826-41.55-18.028-48.136c-1.264-3.375-4.621-5.486-8.216-5.162-25.662 2.332-49.486 14.161-67.084 33.308-17.712 19.27-27.466 44.213-27.466 70.235v43.826c-30.719-37.298-49.19-85.045-49.19-137.026 0-119.026 96.835-215.86 215.861-215.86zm-6.226 250.724-16.066-29.633h44.584l-16.066 29.633c-.877 1.618-1.17 3.488-.829 5.297l13.766 72.928-19.163 50.313-19.164-50.313 13.766-72.928c.342-1.809.049-3.679-.828-5.297zm-144.445 119.552v-61.215c0-43.021 32.046-80.053 74-86.851l15.827 42.259 53.368 140.117c1.182 3.102 4.156 5.152 7.476 5.152s6.294-2.05 7.476-5.152l53.384-140.159 15.812-42.217c41.953 6.799 74 43.83 74 86.851v61.215c-38.928 37.993-92.108 61.446-150.671 61.446s-111.743-23.453-150.672-61.446zm150.671-177.243c49.301 0 89.411-40.11 89.411-89.411 0-49.302-40.11-89.412-89.411-89.412-49.302 0-89.412 40.11-89.412 89.412.001 49.301 40.111 89.411 89.412 89.411zm0-162.823c40.479 0 73.411 32.932 73.411 73.412 0 40.479-32.932 73.411-73.411 73.411s-73.412-32.932-73.412-73.411c.001-40.479 32.933-73.412 73.412-73.412z"></path></svg>
+        <h3 class="text-white font-bold text-xl">Executive search</h3>
+    </div>
+        <div class="hidden group-hover:block px-4 text-left pl-8">
+            <h3 class="text-black font-bold text-sm lg:text-lg mb-4">Statutory compliance</h3>
+            <p class="text-sm text-gray-700 mb-4 xl:mb-6">TalentPro's expertise in risk management allows you to focus on your core business, while being compliant.</p>
+            <button class="bg-blue-500 text-white text-[12px] font-semibold py-1 px-4 mb-4 rounded-full">CLICK HERE</button>
+        </div>
+    </div>
+      </div>
+    </div>
+</div>
+     </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="bg-white py-8 xl:px-16 xl:py-16">
+      <div class="text-center mb-12">
+        <h1 class="text-3xl md:text-[44px] font-semibold mb-10">Our blog</h1>
+        <p class="text-gray-500 mt-4 xl:text-[16px] xl:font-semibold px-6 md:px-10 xl:px-0 leading-relaxed max-w-screen-xl mx-auto wow animate__animated animate__fadeInUp animate__delay-0.5s">
+            TalentPro’s human resources blog is a knowledge portal where we discuss the latest and best practices related to the human resources Industry. the portal educates the reader in various areas of interest such as payroll, compliances, staffing, human resource management services (HRMS), recruiting, etc…
+      </p>
+      
+      </div>
+    
+      <!-- Blog Section with Arrows -->
+      <div class="relative flex items-center justify-center">
+        
+        <!-- Left Arrow -->
+        <button class="relative right-3 bg-gray-200 text-white p-2 rounded-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6 text-headercolor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 w-full max-w-screen-xl">
+          
+          <!-- Card 1 -->
+          <div class="bg-[#F7F7F8] overflow-hidden">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2024/05/Shop-and-establishment-2024-1.png" alt="Blog Image 1" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="font-bold text-xl mb-2">What is Recruitment Process Outsourcing?</h3>
+              <p class="text-gray-600">What is RPO (Recruitment Process Outsourcing)?</p>
+              <button class="mt-4 bg-[#FFB300] hover:bg-[#f2ac08] text-black font-semibold px-4 py-2 rounded-md">Read More</button>
+            </div>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="bg-[#F7F7F8] overflow-hidden">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2024/06/What-is-vendor-compliance.png" alt="Blog Image 2" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="font-bold text-xl mb-2">Benefits of RPO</h3>
+              <p class="text-gray-600">Learn about the benefits of RPO services.</p>
+              <button class="mt-4 bg-[#FFB300] hover:bg-[#f2ac08] text-black font-semibold px-4 py-2 rounded-md">Read More</button>
+            </div>
+          </div>
+    
+          <!-- Card 3 - Hidden on xl screens -->
+          <div class="hidden xl:block bg-[#F7F7F8] overflow-hidden">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2023/03/all-you-need-to-know-about-Importance-of-HR-statutory-compliance-in-different-organizations.jpg" alt="Blog Image 3" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="font-bold text-xl mb-2">How to choose a right RPO company?</h3>
+              <p class="text-gray-600">Tips for selecting the right RPO provider.</p>
+              <button class="mt-4 bg-[#FFB300] hover:bg-[#f2ac08] text-black font-semibold px-4 py-2 rounded-md">Read More</button>
+            </div>
+          </div>
+    
+          <!-- Card 4 - Hidden on xl screens -->
+          <div class="hidden xl:block bg-[#F7F7F8] overflow-hidden">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2024/04/9.png" alt="Blog Image 4" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="font-bold text-xl mb-2">HR Compliance Checklist 2024: A Guide for HR Professionals</h3>
+              <p class="text-gray-600">Stay compliant with this HR checklist.</p>
+              <button class="mt-4 bg-[#FFB300] hover:bg-[#f2ac08] text-black font-semibold px-4 py-2 rounded-md">Read More</button>
+            </div>
+          </div>
+    
+        </div>
+    
+        <!-- Right Arrow -->
+        <button class="relative left-3 bg-gray-200 text-headercolor p-2 rounded-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+
+<!-- Subscribe button -->
+<div class=" mx-auto px-6 py-16 bg-[#32508C] text-white ">
+  <h2 class="text-lg lg:text-2xl xl:text-xl font-bold mb-6 text-center text-headercolor wow animate__animated animate__fadeInUp animate__delay-0.5s">Subscribe to our newsletter</h2>
+  <h1 class="text-3xl lg:text-5xl md:text-4xl font-bold lg:mb-12 mb-8 text-center leading-relaxed wow animate__animated animate__fadeInUp animate__delay-0.5s">
+    Stay connected for <br> our latest industry updates!
+  </h1>
+  <div class="flex justify-center wow animate__animated animate__fadeInUp animate__delay-0.5s">
+      <div class="w-full max-w-2xl flex flex-col items-center">
+          <input type="email" placeholder="Enter your email id" class="w-full px-6 py-3 rounded-md border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4">
+          <button class="w-auto px-6 py-4 mt-2 rounded-md text-center bg-[#043864] text-white transition duration-200 ease-in-out hover:bg-[#FFC400] hover:text-black text-sm font-semibold">SUBSCRIBE NOW</button>
+      </div>
+  </div>
+</div>
+
+    <!-- clientele -->
+
+   <!-- Full-width Background Container -->
+<div class="w-full bg-[#F3F3F3] py-20 px-4 md:py-20 lg:px-4 xl:px-0">
+    <div class="xl:max-w-screen-2xl xl:mx-auto ">
+        <h2 class="text-3xl md:text-2xl lg:text-3xl font-bold text-center mb-8 wow animate__animated animate__fadeInUp animate__delay-0.5s">
+            Clientele who share our trust and belief in our vision<br>
+            let our clients be the voice of our success
+        </h2>
+        
+        <!-- Testimonials Section -->
+        <div class="flex flex-wrap justify-between  xl:justify-center ">
+    
+    <div class="text-left max-w-md w-full md:w-1/2 mb-4 wow animate__animated animate__fadeInUp animate__delay-0.5s" ">
+        <i class="open-button fas fa-quote-right text-4xl mb-1 text-[#CACACA]"></i>
+        <p class="text-sm font-semibold text-gray-500 mb-4 >"We are delighted to be working with TalentPro. I highly <br> recommend TalentPro as a staffing partner"</p>
+        <p class="font-semibold text-lg">Leading BFSI company</p>
+        <p class="text-cyan-500">HR manager</p>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="text-left max-w-md w-full md:w-1/2 mb-4 hidden md:block wow animate__animated animate__fadeInUp animate__delay-0.5s">
+        <i class="open-button fas fa-quote-right text-4xl mb-1 text-[#CACACA]"></i>
+        <p class="text-sm font-semibold text-gray-500 mb-4 ">"TalentPro has been successful in managing our requirements <br> very well"</p>
+        <p class="font-semibold text-lg">Leading FMCG company</p>
+        <p class="text-cyan-500">HR generalist</p>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="text-left max-w-md w-full hidden xl:block mb-4 wow animate__animated animate__fadeInUp animate__delay-0.5s">
+        <i class="open-button fas fa-quote-right text-4xl mb-1 text-[#CACACA]"></i>
+        <p class="text-sm font-semibold text-gray-500 mb-4 ">"TalentPro has been outstanding to work with, and they <br> understand what we are trying to accomplish"</p>
+        <p class="font-semibold text-lg">Leading pharma company</p>
+        <p class="text-cyan-500">HR manager</p>
+    </div>
+</div>
+
+        
+        <!-- Logos Section -->
+        <div class="flex flex-wrap justify-center mt-12 xl:mt-24 space-x-8 ">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2023/09/008.png" alt="TATA Steel" class="h-16 rounded-[12px]">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2023/09/009.png" alt="Sterlite" class="h-16 rounded-[12px] hidden md:block">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2023/09/010.png" alt="HDFC Bank" class="h-16 rounded-[12px] hidden md:block">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2023/09/011.png" alt="IDBI Bank" class="h-16 rounded-[12px] hidden lg:block">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2023/09/012.png" alt="Renault Nissan" class="h-16 rounded-[12px] hidden xl:block">
+            <img src="https://www.talentproindia.com/wp-content/uploads/2023/09/013.png" alt="Hyundai Glovis" class="h-16 rounded-[12px] hidden xl:block">
+        </div>
+    </div>
+</div>
+
+
+    <!-- header -->
+    <header class="nav text-white bg-primary">
+      <div class="container flex flex-col sm:flex-row justify-between items-center py-2 px-4 lg:px-20 xl:hidden">
+        <!-- Header content for large, medium, and small screens -->
+        <div class="flex flex-col sm:flex-row items-center space-x-2 sm:space-x-4">
+          <div class="text-sm mb-1 md:mb-0">
+            <span class="inline-flex items-center font-semibold">
+              <i class="fa-solid fa-location-dot pr-3"></i> PF & Salary Enquiries:
+            </span>
+            <span class="font-bold ml-1">+91 44 42123500</span>
+          </div>
+          <div class="text-sm font-semibold ">
+            <i class="fa-regular fa-envelope pr-2"></i> sales@talentproindia.com
+          </div>
+        </div>
+        <!-- Social media icons -->
+        <div class="space-x-6 mt-2 sm:mt-0">
+          <a href="#" class="hover:text-yellow-600"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-yellow-600"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="hover:text-yellow-600"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" class="hover:text-yellow-600"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </header>
+    
+    
+    
+    <!-- social links -->
+
+    <div class="py-16 px-8 bg-white">
+      <div class="max-w-screen-xl mx-auto grid grid-cols-1 xl:grid-cols-5 gap-8">
+          
+          <div class="space-y-6 col-span-1">
+              <img src="https://www.talentproindia.com/wp-content/uploads/2021/09/TalentPro_Logo-small.png" alt="TalentPro Logo" class="xl:h-12">
+              <p class="text-[18px] font-bold text-[#113163]">Corporate Office:</p>
+              <p class=" text-[14px] font-semibold text-black">
+                  TalentPro India HR Private Limited.                 
+              </p>
+              <p class="text-[14px] font-semibold text-black">
+                No:64 (Old No: 30), III Floor<br>
+                Ethiraj salai, Egmore, Chennai - 600 008.
+              </p>
+              
+              <div class="flex space-x-4">
+                  <a href="#"><img src="images/linkedin.png" alt="LinkedIn" class="h-7"></a>
+                  <a href="#"><img src="images/instagram.png"Instagram" class="h-7"></a>
+                  <a href="#"><img src="images/facebook.png" class="h-7"></a>
+                  <a href="#"><img src="images/twitter.png"Twitter" class="h-7"></a>
+                  <a href="#"><img src="images/youtube.png" alt="YouTube" class="h-7"></a>
+              </div>
+          </div>
+
+          <!-- Our Services Section -->
+
+          <div class="col-span-1 lg:col-span-1">
+            <p class="text-xl font-semibold text-yellow-500 mb-6">Our services</p>
+            <ul class="space-y-2 text-gray-800">
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        Payroll outsourcing
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+                
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        Statutory compilance
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        Staffing solutions
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        IT staffing
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        HRMS/ payroll software
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        Startup solutions
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        HR consulting
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        Recruitment
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            
+                <li class="relative pl-8 group">
+                    <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                        <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+                    </span>
+                    <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                        Training and development
+                        <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        
+
+        <!-- location -->
+       <div class="col-span-1 lg:col-span-1">
+    <p class="text-xl font-semibold text-yellow-500 mb-6">Locations</p>
+    <ul class="space-y-2 text-gray-800">
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Bangalore
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Chennai
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Coimbatore
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Delhi
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Hydrabad
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Kolkata
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Mumbai
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Pune
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    </ul>
+</div>
+
+<!-- location -->
+<div class="col-span-1 lg:col-span-1">
+    <p class="text-xl font-semibold text-yellow-500 mb-6">Resource</p>
+    <ul class="space-y-2 text-gray-800">
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Newsletter
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+        
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Articles
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+        
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500 border-b-2 border-transparent">
+                Blog
+                <span class="absolute left-0 bottom-0 w-full border-b-2 border-yellow-500 transition-all duration-300 ease-in-out transform group-hover:scale-x-100 scale-x-0 origin-left"></span>
+            </span>
+        </li>
+        
+        <li class="relative pl-8 group">
+            <span class="absolute left-0 top-1/2 transform -translate-y-1/2 w-4 h-4 border-2 border-yellow-500 rounded-full flex items-center justify-center transition-transform duration-300 ease-in-out group-hover:translate-x-2">
+                <span class="w-1/2 h-1/2 bg-yellow-500 rounded-full"></span>
+            </span>
+            <span class="inline-block relative transition-all duration-300 ease-in-out group-hover:translate-x-4 group-hover:text-yellow-500">
+                Case study
+                <span class="absolute left-0 bottom-0 w-0 border-b-2 border-yellow-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            </span>
+        </li>
+    </ul>
+</div>
+
+
+          <!-- Accreditation Section -->
+          <div class="col-span-1 lg:col-span-1">
+              <p class="text-xl font-semibold text-yellow-500 mb-6">Accreditation</p>
+              <div class="flex flex-col space-y-4">
+                <div class="flex justify-center lg:items-center xl:justify-start">
+                  <img src="https://www.talentproindia.com/wp-content/uploads/2020/04/Awards.png" alt="SSAE Logo" class="w-full h-auto lg:max-w-100 lg:h-auto  xl:h-1/2 xl:w-40 ">
+                </div>
+                   
+                  <div class="flex flex-row items-center">
+                  <!-- <img src="flag.png" alt="Accreditation Logo" class="h-16"> -->
+                   <svg xmlns="http://www.w3.org/2000/svg" id="Warstwa_1" height="40px" viewBox="0 0 283.46 283.46" width="50px"><g><path d="m280.63 235.084c-92.596-56.009-185.196 56.026-277.796 0 0-62.237 0-124.471 0-186.709 92.6 56.017 185.2-56.017 277.796 0z" fill="#cccbca"></path><g><path d="m278.378 231.476c-91.081-52.448-182.164 55.068-273.246 2.683 0-60.716 0-121.443 0-182.159 91.082 52.385 182.165-55.123 273.246-2.683z" fill="#fbb22a"></path><path d="m262.455 207.943c-53.131-20.349-106.253 7.374-159.388 19.705 0-50.095 0-100.185 0-150.279 53.135-12.332 106.257-40.062 159.388-19.713z" fill="#861a27"></path><path d="m87.107 230.833c-11.006 1.789-22.012 2.636-33.018 1.993 0-50.095 0-100.193 0-150.288 11.006.643 22.012-.204 33.018-1.993z" fill="#f0602e"></path><path d="m54.09 232.826c-11.006-.659-22.012-2.793-33.017-6.997 0-50.095 0-100.193 0-150.288 11.005 4.205 22.011 6.346 33.017 6.997z" fill="#115745"></path><g><g><path d="m236.638 93.481c-3.294-.376-2.377 3.099-2.377 3.091-1.906-.188-5.177-3.64-9.633-6.997-4.455-3.295-8.794-7.083-19.368-5.97-10.59 1.279-14.747 8.598-14.747 12.473 0 3.938 3.311 6.448 3.311 6.456-1.381 1.741-1.231 3.436-1.231 3.436s0 1.601 1.247 3.021c1.239 1.419 1.364-.024 1.364-.729 0-.706.628-2.354 2.04-2.573 1.412-.212 6.001 1.875 12.99 1.287 6.997-.494 8.763-2.047 14.45-2 5.687.165 7.036 2.785 7.036 4.816 0 2.071-1.185 4.017-5.483 5.303-4.299 1.294-8.362 1.027-8.362 1.027 0-.047-7.499-.047-9.728.871-2.228.839-5.663 1.35-8.66 1.695-3.004.29-10.417 1.569-10.417 1.6-.251-.337-1.239-.534-1.239-.534.471-.094.941-.188 1.412-.282 0 0-1.663-1.64-1.758-2.707-.094-1.051-.471-2.11-.471-2.11 1.805.934 2.087.769 2.314.29.22-.471-.918-2.408-.996-3.31-.086-.91-.22-1.64-.22-1.64 1.286 1.404 1.177-2.463 1.333-7.601.173-5.123-1.866-5.938-1.866-5.931 3.404-3.757 3.389-7.664 3.389-7.672-1.726 1.867-2.809 3.012-3.719 3.193-.909.188-1.428.22-2.243-.416-.815-.62-2.031-1.216-3.428-1.38-1.404-.165-1.482.369-1.608 1.075s-1.051 2.408-1.051 2.408c-2.338-2-4.511-2.149-5.507-1.843-.996.313-.432 1.247-.91 2.98-.486 1.726-2.307-.267-4.001-.267-1.71 0-5.122 1.655-5.122 1.663 1.451 2-1.083 4.268-2.221 4.872-1.129.596-2.384.643-3.679 1.419-1.278.777-1.984 1.318-3.052 1.703-1.066.384-2.635 1.145-2.635 1.145.25-1.075.298-3.906-2.684-3.02-2.973.895-3.138 3.695-3.138 3.695 0 3.954 2.196 5.476 3.099 6.071.902.588 1.687 1.396 2.723 2.251 1.043.855 2.839 1.059 2.839 1.059-.164-.894-.148-2.173-.148-2.165 0 0 1.263.824 1.883 1.059.619.235.948.102.996-.471.031-.565.518-1.812.518-1.812.815 1.514 3.938 4.307 3.938 4.314-3.02.894-6.855.839-9.915.502-3.06-.33-5.083-.957-5.507.455-.408 1.42 2.134 2.353 2.134 2.361-1.537.024-2.824 6.715-2.824 6.715 2.228-.674 5.248-2.369 5.248-2.369-.4.925-.808 1.859-1.2 2.785 1.632-.675 4.009-2.298 4.009-2.298s1.2 1.49 1.796 1.318c.597-.173.659-.659.816-1.702.164-1.043.251-.604 1.129.847.895 1.443 1.64 1.208 1.64 1.208s.212-.008.564-.902c.361-.894 1.279-1.796 1.797-1.945.533-.149.988.424.988.996 0 .573-.525 1.804-3.044 4.024-2.525 2.212-4.98 4.997-7.279 8.558-2.29 3.554-3.515 9.268-3.515 11.323 0 2.039.785 4.581.785 4.581-3.468-2.887-10.218-7.154-10.218-7.154 2.616-2.196 2.432-3.937 2.432-3.937 0-4.044-4.255-1.675-4.255-1.675s.737-9.515.737-19.87c0-10.347 1.855-23.267 3.103-25.95 1.244-2.675-1.22-.086-1.22-.086-6.531 6.793-8.08 14.387-8.801 19.305-.718 4.918-.941 9.97-.941 18.223 0 8.244.416 10.555.416 10.555-.333-.314-4.565.297-4.565 3.859 0 3.577 5.452 2.698 5.452 2.683 0 .016-1.247.298-1.247 1.271 0 .957.584.973.584.973-1.385.393-1.439 1.491-1.439 1.491.083 1.772 1.769 1.38 1.769 1.38s-.969.597-.969 1.476c0 .894 1.22 1.004 1.22 1.004s-.64 0-.612 1.145c.028 1.161 1.385 1.24 1.385 1.24-.471.267-.443 1.333-.443 1.333 0 .988-1.521.424-1.521.424s-1.659.016-1.659 1.459 1.106 1.114 2.71.753c1.608-.376-1.106 2.95-1.106 2.95s1.357 1.035 1.357 2.776-1.385 3.216-1.385 3.216c-.498-.689-1.687-1.333-2.573.22-.887 1.569 1.188 2.62 2.796 2.369 1.604-.251-1.69 2.746-1.69 2.746 1.032-.095 2.067-.188 3.099-.282 0 0 .388 2.557 1.526 2.117 1.133-.455 1.687-3.169 1.687-3.169 1.016-.486 2.027-.957 3.043-1.443-2.267-.862-2.02-1.663-2.02-1.663s1.69-.722 2.879-2.103c1.192-1.38.498-2.541-.525-2.4-1.024.142-1.577 1.616-1.577 1.616-1.745-.22-1.855-3.06-1.051-4.361.8-1.286.941-1.553.137-2.118-.804-.564-.969-1.835-.969-1.835 1.828.36 3.459-.581 3.459-1.679 0-1.114-1.604-1.005-2.354-.706-.745.313-1.051.298-1.051.298-.055-.377-.471-.612-.471-.612 1.302-.109 2.134-1.255 2.134-1.255.027 1.569 1.742-.69 1.742-.69 0 .361 1.106.769 1.384 1.02.275.251.22 2.118.22 2.118s-.192 3.907.694 4.519c.886.628.969-.471 1.051-.895.082-.407 1.302-1.004 1.302-1.004s1.859 1.883 5.53 3.185c3.688 1.287 7.617-5.898 7.617-5.898 6.26 2.4 6.849 1.192 6.849 1.192s2.58 4.314 2.58 9.884c0 5.538-7.577 5.601-9.656 7.028-2.071 1.396-3.562 6.464-2.526 6.166 1.036-.313 2.699-1.977 2.699-1.977s.329 1.082 1.945.611 2.887-2.055 2.887-2.055.91.973 2.494.533c1.569-.439 3.044-2.023 3.044-2.023.784.611 2.385.549 3.161.345.777-.22 2.77-1.208 2.77-3.671 0-2.448-1.694-3.828 1.49-5.68 3.185-1.867 5.013-5.005 4.989-5.569-.031-.597-5.067 1.035-5.067-1.287 0-2.321 3.451-7.859 3.451-7.859 3.106-1.192 5.734-3.593 12.794-7.955 7.053-4.298 10.457-3.938 10.457-3.953 0 6.668 4.573 9.225 6.095 11.72 1.522 2.463 1.153 10.465 1.153 10.465-1.992 2.808-4.793 1.239-7.507 3.027-2.706 1.773-2.941 4.738-1.867 4.565 1.075-.173 2.949-1.883 2.949-1.867 0 0 .816 1.303 2.361 1.114 1.554-.188 2.589-1.741 2.589-1.741s.103 1.443 2.118 1.255c2.023-.188 2.447-1.601 2.447-1.601s1.992 1.271 3.201 1.208c1.199-.063 1.584-.831 1.584-.831.173 1.93 3.342-.769 3.342-.753 0 0 .424 1.381 1.945 1.364 1.521-.016 2.824-1.411 2.824-1.428 0 .017.879 1.396 2.714 1.46 1.844.078 2.314-1.24 2.314-1.24.399.565 2.313 1.507 3.624 1.632 1.311.11 1.373-.549 1.2-1.428-.157-.878-2.486-3.185-2.486-5.632 0-2.479 2.118-3.342 2.808-3.813.698-.471 3.946-2.777.558-4.079-3.39-1.255-3.452-6.888-3.452-6.888 0-8.08 4.503-10.946 4.503-19.748 0-8.856-4.188-12.387-4.188-12.363 2.306-1.538 4.777-4.299 4.777-7.202 0-2.871-2.519-8.903-9.304-9.209-6.786-.204-10.237 1.027-16.442 1.475-6.205.557-4.252-3.53-5.656-3.389-1.411.157-2.973 2.957-2.973 2.965 0-.008-1.263-.769-1.263-2.667 0-1.93 3.624-3.647 3.624-3.632-4.879-2.918-7.515 2.534-7.515 2.526s-2.299.125-2.299-3.185c0-3.333 3.734-4.063 3.734-4.055 0 0 1.436-.275 1.687.557.243.839.769.824.769.832 1.844-.259 1.302-4.393 1.302-4.393 3.342-.439 5.507 2.353 5.507 4.4 0 2.055-1.749 4.621-1.749 4.628 4.071-.447 6.095-3.828 6.095-5.805s-.823-3.287-.823-3.287c3.428-.251 4.11 3.091 4.11 4.016 0 .934-.494 2.369-1.349 3.577-.855 1.216.164 1.012.164 1.012 3.82-.204 4.676-4.173 4.676-4.189.674 1.922 4.11 3.757 5.208 4.079 1.099.313 1.82.188.871-.706-.957-.886-1.451-3.844-1.451-3.852 2.354.667 7.86 7.546 11.932 8.017s4.299-3.067 4.299-3.091c-.003.016.577-3.365-2.726-3.789zm-11.79 70.8c-.353.722-1.247 1.208-4.322 1.898-3.067.69-4.393 3.326-4.393 3.311 0 0 .141-1.459-.416-3.106-.557-1.632-.611-2.684.306-4.11.91-1.428 3.373-3.625 3.373-5.271 0-1.679-4.424 1.02-4.424-2.684 0 0-.031-1.851 1.93-3.608 0-.063 6.699 3.342 7.452 5.868.745 2.477.855 6.996.494 7.702z" fill="#fbb228"></path><g fill="#231f20"><path d="m238.992 94.454c-.533-.698-1.317-1.129-2.354-1.255-1.035-.125-1.804.11-2.274.683-.589.714-.533 1.765-.455 2.337-1.287-.376-3.217-2.063-5.617-4.063-1.051-.871-2.228-1.851-3.498-2.8-.235-.188-.479-.369-.722-.549-4.283-3.185-8.707-6.558-18.812-5.483-10.37 1.239-15.029 8.511-15.029 12.81 0 3.507 2.479 5.852 3.2 6.488-1.247 1.733-1.13 3.357-1.122 3.396 0 .079.016 1.718 1.311 3.185.439.518.808.73 1.13.675.494-.086.737-.643.737-1.663 0-.557.525-2.055 1.757-2.244.393-.063 1.146.102 2.103.314 2.251.502 6.017 1.373 10.888.973 3.703-.29 5.931-.8 8.08-1.271 1.898-.408 3.702-.777 6.37-.729 4.361.102 6.754 1.828 6.754 4.51 0 2.4-1.734 3.969-5.287 5.052-2.645.808-5.201 1.004-6.88 1.043-.848.016-1.365-.023-1.381-.023-.023 0-2.298-.047-4.69.102-2.526.157-4.252.447-5.131.784-1.529.581-3.859 1.059-6.715 1.451-.627.086-1.255.157-1.859.228-2.753.267-9.279 1.357-10.291 1.569-.071-.055-.149-.11-.244-.157.095-.023.188-.039.283-.063h.008c.148-.023.29-.18.29-.337 0-.094-.047-.173-.126-.204-.471-.486-1.576-1.75-1.646-2.526-.048-.526-.157-1.051-.268-1.451.801.369 1.161.416 1.436.361.416-.079.581-.432.644-.565.165-.361-.039-.902-.447-1.906-.228-.565-.486-1.192-.518-1.577-.031-.369-.078-.698-.118-.973.04 0 .087 0 .126-.008.863-.173.949-1.914 1.06-6.182.016-.651.031-1.326.047-2.04.141-4.118-1.13-5.554-1.711-5.985 3.217-3.726 3.24-7.452 3.24-7.625-.008-.11-.07-.196-.165-.228-.109-.023-.22.023-.306.11-1.671 1.796-2.737 2.926-3.538 3.083-.87.181-1.302.204-2.039-.369-.988-.761-2.275-1.278-3.546-1.436-.393-.047-.714-.039-.973.016-.792.18-.91.831-1.004 1.365-.07.432-.518 1.349-.816 1.938-2.212-1.781-4.361-2-5.475-1.663-.863.275-.902.973-.941 1.647-.016.432-.047.957-.228 1.592-.103.361-.228.393-.29.408-.307.078-.848-.149-1.365-.376-.612-.267-1.303-.573-2-.573-.4.008-.934.094-1.554.259-1.702.463-3.616 1.396-3.694 1.436-.095.039-.173.125-.204.22-.039.086-.031.188.016.251.423.581.51 1.231.251 1.93-.408 1.09-1.585 2.102-2.291 2.479-.486.259-1.004.4-1.545.557-.698.212-1.404.416-2.157.871-.313.188-.597.369-.863.534-.784.494-1.356.863-2.118 1.129-.753.267-1.726.714-2.259.981.094-.792.031-1.914-.612-2.55-.533-.525-1.349-.62-2.432-.298-3.2.965-3.42 4.008-3.42 4.056 0 4.165 2.4 5.726 3.185 6.244.565.369 1.099.839 1.663 1.341.33.282.675.588 1.052.902 1.066.879 2.863 1.09 2.934 1.099.047 0 .086 0 .117-.008.149-.039.291-.211.291-.369 0-.047-.017-.094-.032-.125-.078-.439-.109-.973-.125-1.38.432.259 1.043.62 1.436.769.329.125.588.149.808.086.173-.055.573-.228.62-.895.023-.259.148-.706.282-1.098.839 1.208 2.519 2.824 3.287 3.538-3.264.8-7.123.549-9.194.33-.58-.063-1.129-.142-1.631-.212-1.365-.181-2.448-.33-3.186-.102-.682.204-.957.683-1.066 1.059-.354 1.208.965 2.04 1.741 2.416-1.341 1.294-2.259 5.711-2.439 6.684-.016.086.008.165.055.211.063.055.142.071.22.047 1.663-.502 3.727-1.545 4.723-2.079-.314.722-.628 1.443-.934 2.165-.039.102-.039.211.023.274.063.063.157.086.267.047 1.381-.573 3.24-1.781 3.867-2.196.447.518 1.295 1.404 1.906 1.224.816-.235.926-.934 1.083-1.906 0-.023 0-.047 0-.063.063.094.125.211.203.321.11.204.252.439.416.714.91 1.483 1.727 1.333 1.891 1.287.267-.079.533-.455.816-1.145.329-.816 1.16-1.593 1.537-1.703.329-.094.706.337.706.8 0 .274-.212 1.365-2.902 3.734-2.785 2.463-5.193 5.287-7.358 8.645-2.354 3.64-3.577 9.432-3.577 11.519 0 1.255.29 2.698.518 3.64-3.13-2.479-7.986-5.601-9.194-6.385 2.396-2.165 2.243-3.875 2.239-3.922 0-2.946-2.102-2.75-3.353-2.373-.345.11-.651.228-.875.337.133-1.875.714-10.417.714-19.517 0-10.41 1.882-23.259 3.063-25.792.373-.816.47-1.248.314-1.459-.047-.071-.169-.165-.42-.086-.494.149-1.361 1.036-1.525 1.208-6.335 6.589-8.092 13.893-8.916 19.533-.69 4.707-.945 9.648-.945 18.254 0 6.229.235 9.076.353 10.115-.341 0-.765.079-1.153.204-.784.219-3.35 1.208-3.35 4.11 0 2.746 2.911 3.06 4.574 2.981-.224.267-.369.58-.369.957 0 .423.102.706.231.878-.804.455-1.067 1.192-1.087 1.601.051 1.13.702 1.521 1.318 1.601-.267.313-.518.737-.518 1.239 0 .627.463.941.855 1.082-.176.267-.255.628-.247 1.083.023.895.71 1.239 1.169 1.365-.228.471-.231 1.051-.228 1.192 0 .156-.023.172-.098.188-.267.079-.745-.031-.984-.125-.023 0-.051-.016-.079-.016-.012 0-.302 0-.651.109-.871.251-1.369.895-1.369 1.726 0 1.647 1.271 1.35 2.745 1.005.075-.016.153-.032.228-.048.165-.047.235-.016.243 0 .09.235-.62 1.412-1.521 2.526-.055.063-.086.142-.09.22 0 .063.027.141.079.173.012.016 1.278 1.004 1.278 2.619 0 1.161-.687 2.197-1.051 2.684-.385-.408-.977-.722-1.632-.534-.326.095-.804.361-1.228 1.114-.306.533-.345 1.067-.106 1.537.439.863 1.828 1.396 3.099 1.209.129-.032.184-.017.196-.032-.035.283-.953 1.334-1.996 2.275-.098.094-.149.22-.13.329.02.11.11.173.224.157.969-.078 1.938-.173 2.907-.267.125.659.604 2.557 1.8 2.087 1.145-.455 1.726-2.558 1.891-3.248.953-.455 1.91-.91 2.863-1.365.114-.063.204-.172.228-.282.024-.125-.023-.22-.118-.267-1.396-.533-1.769-1.02-1.871-1.239.542-.267 1.793-.973 2.754-2.103.608-.69.851-1.443.667-2.039-.172-.565-.706-.879-1.33-.785-.91.126-1.494 1.052-1.745 1.554-.471-.157-.82-.565-1-1.192-.251-.879-.125-2.056.294-2.715.843-1.364 1.063-1.819.113-2.479-.423-.298-.655-.831-.776-1.224.51.031 1.02-.016 1.49-.157 1.114-.329 1.859-1.129 1.859-1.977 0-1.177-1.416-1.271-2.424-.973-.086.031-.169.063-.243.094-.385.157-.647.22-.792.252-.02-.063-.047-.11-.075-.157.569-.188 1.02-.533 1.314-.832.153.346.455.299.607.251.424-.125.93-.643 1.248-1.02.172.157.439.313.785.502.188.11.384.204.462.282.114.11.185 1.021.157 1.946-.02.407-.173 4.047.776 4.706.287.204.534.267.769.188.549-.157.671-.863.733-1.239.008-.047.012-.079.02-.11.063-.125.483-.423.918-.658.451.423 2.271 1.977 5.495 3.122.619.22 1.294.22 1.992.016 2.77-.832 5.201-4.723 5.844-5.821 3.099 1.161 5.303 1.632 6.386 1.318.109-.031.188-.063.267-.094.502.925 2.416 4.801 2.416 9.554 0 3.75-3.718 4.801-6.699 5.664-1.153.345-2.149.628-2.761 1.051-1.867 1.256-3.256 5.1-3.028 6.276.094.502.479.438.596.407.855-.251 2.04-1.302 2.573-1.819.29.407.926.784 2.071.455 1.317-.377 2.4-1.443 2.855-1.931.376.283 1.239.77 2.525.408 1.318-.36 2.558-1.459 3.028-1.93.934.564 2.511.424 3.177.251 1.06-.282 3.052-1.475 3.052-4.017 0-.722-.142-1.349-.259-1.897-.306-1.412-.494-2.275 1.561-3.483 3.193-1.867 5.209-5.083 5.178-5.899-.023-.407-.572-.376-1.568-.282-1.396.126-3.499.33-3.499-.988 0-2.023 2.855-6.777 3.334-7.562 2.008-.801 3.813-2.056 6.754-4.048 1.569-1.067 3.522-2.369 5.985-3.875 4.715-2.888 7.789-3.625 9.193-3.828.4-.063.698-.095.879-.095.086 4.896 2.628 7.594 4.495 9.633.674.722 1.255 1.35 1.631 1.962 1.381 2.243 1.146 9.351 1.114 10.229-1.059 1.443-2.338 1.585-3.82 1.773-1.146.141-2.33.298-3.538 1.098-2.157 1.412-2.808 3.515-2.572 4.472.117.439.431.675.839.611.934-.141 2.322-1.271 2.879-1.741.338.393 1.153 1.146 2.432.988 1.146-.141 2.017-.926 2.472-1.443.243.486.823 1.083 2.235.957 1.584-.141 2.283-.973 2.558-1.475.611.361 2.07 1.13 3.091 1.083.705-.048 1.176-.299 1.459-.55.156.282.438.424.815.408.815-.031 1.984-.863 2.542-1.286.298.549.957 1.208 2.055 1.208 1.255-.016 2.338-.863 2.801-1.271.376.439 1.271 1.256 2.737 1.303 1.404.063 2.087-.612 2.385-1.067.745.628 2.369 1.35 3.554 1.459.636.048 1.059-.047 1.311-.329.313-.36.266-.91.172-1.412-.063-.345-.36-.8-.769-1.428-.722-1.098-1.718-2.604-1.718-4.157 0-1.977 1.451-2.84 2.314-3.342.156-.094.282-.173.392-.235.902-.628 2.385-1.82 2.149-3.044-.125-.643-.698-1.177-1.702-1.553-3.146-1.161-3.239-6.543-3.239-6.605 0-3.875 1.051-6.526 2.156-9.299 1.153-2.895 2.346-5.868 2.346-10.433 0-7.648-3.059-11.398-4.016-12.355 2.337-1.64 4.604-4.37 4.604-7.209 0-2.707-2.416-9.194-9.586-9.523-3.483-.133-6.104.181-8.637.526-2.464.337-4.785.706-7.806.949-3.977.337-4.385-1.177-4.683-2.314-.149-.564-.299-1.153-.974-1.075-1.286.142-2.557 2.024-3.027 2.824-.346-.314-.926-1.028-.926-2.283 0-1.412 2.479-2.902 3.436-3.342.103-.039.173-.133.188-.251.016-.102-.031-.196-.109-.251-1.208-.722-2.385-1.004-3.515-.847-2.471.337-3.922 2.628-4.314 3.334-.502-.055-1.875-.432-1.875-2.942 0-3.012 3.318-3.71 3.515-3.734.117-.016 1.185-.165 1.349.4.291.98.934.997 1.044.997.392-.055.722-.251.988-.596.784-.989.698-3.044.628-3.828 3.004-.212 4.91 2.298 4.91 4.181 0 1.938-1.679 4.424-1.694 4.456-.063.094-.07.204-.023.29.047.102.149.141.251.133 4.11-.447 6.378-3.844 6.378-6.111 0-1.38-.377-2.439-.636-2.989 3.208.094 3.357 3.726 3.357 3.758 0 .925-.533 2.322-1.295 3.412-.234.33-.518.816-.337 1.177.103.196.329.29.636.274.047-.008.094-.008.094-.008 2.989-.172 4.268-2.502 4.723-3.71 1.169 1.835 4.188 3.334 5.083 3.593.91.259 1.49.212 1.647-.165.141-.353-.22-.761-.51-1.02-.604-.564-1.052-2.196-1.264-3.185.848.439 2.024 1.451 3.264 2.526 2.526 2.196 5.68 5.028 8.292 5.311 4.291.494 4.573-3.255 4.573-3.279.011-.074.277-1.681-.648-2.913zm-92.322 22.843c.07-.235.181-.408.525-.51.62-.188 1.647-.055 2.958.118.51.07 1.059.149 1.647.219 2.204.235 6.408.502 9.845-.47.36.376 1.066 1.216 1.38 2.173.063.188.063.345.008.416-.203.283-1.2.353-1.858.4-.322.024-.644.047-.941.086-.879.118-1.694.337-2.229.494.565-.996.628-1.624.628-1.647.008-.079-.016-.149-.063-.196-.063-.047-.126-.055-.204-.039-4.754 1.224-8.747 1.075-9.681 1.012v.008c-.61-.236-2.305-1.099-2.015-2.064zm-15.175-3.915c.808-5.53 2.526-12.684 8.695-19.101.365-.384.851-.816 1.106-.957-.02.11-.09.345-.31.816-1.236 2.659-3.134 15.406-3.134 26.083 0 9.633-.647 18.646-.729 19.737-.259.322-.957 1.259-.957 2.012 0 .611.451 1.097.729 1.348-.365.346-1.291 1.036-3.244 1.616-1.961.597-2.573.393-2.746.282.204-.36.592-1.16.592-1.882s-.345-1.161-.542-1.349c-.066-.471-.4-3.126-.4-10.437.003-8.574.258-13.5.94-18.168zm-5.087 32.59c0-2.307 1.946-3.139 2.785-3.374.722-.219 1.208-.203 1.279-.172.008.016.02.016.032.016.145.156.431.502.431 1.066 0 .753-.584 1.679-.588 1.679-.051.095-.074.188-.055.251.039.173.376.957 3.361.063 2.953-.879 3.785-2.024 3.871-2.165.094-.142.086-.299-.02-.361-.216-.157-.772-.644-.772-1.176 0-.486.541-1.243.8-1.565.153-.078.557-.282 1.051-.431 1.851-.557 2.789.11 2.789 2.012.004.063.114 1.584-2.283 3.608-.008 0-.012.016-.02.031-.518.377-3.369 2.4-9.033 3.091-1.53-.032-3.628-.471-3.628-2.573zm10.637 5.146c.059-.031.122-.063.181-.094-.114.141-.228.282-.333.438-.165-.219-.479-.392-.883-.518.098-.063.192-.125.271-.204.039.142.102.251.216.33.152.079.344.095.548.048zm-.243-.738c-.008-.439.647-1.428 1.067-1.961.145-.204.643-.785.992-.879.067-.031.122-.016.168 0 .02 0 .04.031.043.078.031.299-.388 1.052-.702 1.522-.298.471-1.145 1.6-1.499 1.381-.03-.016-.065-.047-.069-.141zm-.051 5.962c-.169-.235-.424-.408-.729-.518.066-.048.137-.095.204-.142.043.157.125.282.263.345.137.063.283.048.432.017-.065.11-.119.204-.17.298zm-.146-2.73c.094.032.196.032.318-.016.027 0 .059-.016.086-.031-.063.095-.125.173-.181.267-.031-.047-.055-.078-.098-.109-.034-.048-.081-.079-.125-.111zm-.227-3.78c-.031.094-.345.894-1.498.847-.043 0-.086.016-.129.031-1.326-.141-2.895-.078-3.765-.016-.09-.031-.373-.141-.373-.784 0-.518.545-.769.93-.879 1.354-.188 4.162-.407 4.758.361.101.125.124.267.077.44zm-6.625 2.556c.008-.078.086-.8 1.146-1.113 2.816-.173 5.667.078 5.565.753-.008.047-.251 1.066-1.161 1.177-1.079-.142-2.546-.016-3.989.36-.02 0-.031 0-.051 0-.058.016-1.439.298-1.51-1.177zm6.661 1.114c-.083-.031-.169-.078-.267-.11.051-.047.098-.094.146-.141.019.11.061.189.121.251zm-5.856 1.742c0-.549.494-.957.69-1.098 1.467-.393 2.82-.471 3.781-.361.036.016.071.016.118.016h.004c.534.079.938.22 1.149.408.114.109.161.204.145.329-.051.11-.098.235-.133.346-.286.455-.906.69-1.114.753-1.443-.157-3.291.267-3.729.376-.339-.063-.911-.283-.911-.769zm5.561 3.954c.612-.251 2.04-.361 2.04.518 0 .627-.698 1.051-1.294 1.239-.545.157-1.153.188-1.757.063-.094-.016-.204.031-.29.11-.083.094-.13.204-.114.298.004.063.188 1.381 1.047 1.992.647.439.616.486-.165 1.758-.521.831-.683 2.196-.389 3.216.251.895.804 1.443 1.558 1.537.141.016.31-.094.369-.267.004-.016.479-1.239 1.274-1.349.408-.048.761.156.875.518.126.408-.051.91-.49 1.428-1.11 1.271-2.714 1.992-2.729 1.992-.106.047-.196.142-.231.251-.067.22-.129.941 1.577 1.726-.792.377-1.588.753-2.381 1.13-.114.063-.204.173-.228.298-.2.957-.765 2.589-1.482 2.871-.631.188-1.063-1.255-1.173-1.977-.02-.109-.106-.188-.224-.173-.808.079-1.612.142-2.42.22.839-.815 1.781-1.867 1.663-2.4-.036-.172-.185-.345-.675-.282-1.079.173-2.294-.282-2.655-.988-.161-.313-.141-.644.055-.988.228-.393.486-.644.761-.722.502-.142 1.043.22 1.337.627.043.048.11.079.188.079.082-.016.161-.063.227-.126.059-.063 1.495-1.6 1.495-3.467 0-1.459-.863-2.416-1.251-2.793.585-.737 1.718-2.307 1.471-2.918-.063-.173-.243-.345-.733-.235-.075.016-.153.047-.228.063-1.581.346-2.22.471-2.22-.596 0-.361.09-.801.804-1.004.204-.063.384-.079.459-.079.176.063.784.251 1.255.11.408-.126.663-.471.663-.926-.008-.346.071-.753.168-.91.412-.047 1.491-.157 2.185-.094.11.063.271.22.298.392.016.11.086.173.184.173.047-.002.376.014 1.176-.315zm-1.051-.973c-.146.047-.294.078-.443.094-.02 0-.039.016-.059.031-.726-.047-1.726.047-2.149.11-.02-.016-.032-.032-.051-.032-.012 0-1.177-.109-1.2-1.051-.008-.455.09-.628.137-.69.016-.031.043-.047.11-.063s.137-.031.196-.078c.859-.204 2.279-.439 3.354-.314h.066c.777.095 1.353.377 1.373.973 0 .032.008.048.016.063-.004.031-.004.047-.008.063-.185.219-.663.69-1.342.894zm1.914-.957c-.004-.016-.012-.016-.016-.031.04-.283.22-.957 1.059-1.758.726-.675 1.016-.815 1.098-.831.032.047.165.407-.886 1.898-.298.376-.855.988-1.126 1.066-.109.032-.129-.188-.129-.344zm13.485 8.079c-.588.173-1.153.173-1.687-.016-3.593-1.286-5.444-3.122-5.46-3.138-.07-.063-.172-.078-.278-.031-.525.267-1.42.769-1.526 1.302-.008.048-.02.095-.027.142-.063.361-.125.564-.18.612 0 0-.114.031-.369-.142-.58-.408-.682-2.871-.611-4.346.02-.597.027-2.008-.287-2.291-.11-.094-.306-.203-.534-.313-.211-.125-.624-.345-.749-.486.694-1.004 1.016-1.741.945-2.196-.031-.22-.145-.313-.22-.346-.105-.094-.282-.063-.521.048.023-.032.051-.079.074-.11.828-1.161.522-2.259.506-2.306-.04-.142-.196-.188-.341-.095-.153.078-.243.267-.204.393 0 0 .239.895-.376 1.757-.333.471-1.345 1.883-1.796 1.679-.07-.031-.07-.141-.063-.235.008-.078.023-.157.047-.22.071-.141.125-.267.161-.424.286-.611.831-1.349 1.49-1.835.141-.126.204-.298.141-.424-.012-.031-.035-.047-.055-.063.961-1.287 1.02-2.793 1.02-2.871.004-.157-.118-.251-.274-.204-.165.063-.287.204-.291.36 0 .017-.063 1.773-1.267 2.903-.69.658-.879.596-.879.596-.047-.031-.066-.267.102-.706.267-.69 1.275-1.757 1.64-2.103.129-.125.165-.313.079-.423-.036-.048-.086-.063-.142-.063.146-.204.243-.345.271-.392.149-.22.89-1.334.832-1.962-.02-.203-.11-.329-.263-.407-.146-.063-.318-.079-.514-.016-.647.188-1.322 1.082-1.392 1.161-.059.078-.349.454-.632.909-.02-.031-.035-.063-.059-.094-.408-.533-1.479-.69-2.565-.69.04-.016.083-.016.122-.031 2.698-.815 4.259-1.82 4.84-2.243.988.627 6.908 4.424 10.053 7.044h.008c.549 1.082 2.62 4.597 6.62 6.856-.58 1.005-2.91 4.723-5.389 5.46zm63.674 5.962c-.91.047-2.503-.831-3.036-1.161-.071-.047-.165-.063-.251-.016-.087.031-.149.095-.181.188-.016.047-.408 1.224-2.181 1.381-1.71.156-1.828-.973-1.836-1.02 0-.126-.086-.22-.204-.235-.109-.016-.235.031-.306.141-.008.016-.98 1.443-2.361 1.601-1.356.173-2.109-1.004-2.117-1.02-.048-.063-.11-.095-.188-.095-.079-.016-.165.016-.235.079-.494.454-1.961 1.662-2.77 1.788-.133.016-.235-.063-.29-.267-.165-.675.329-2.495 2.29-3.797 1.083-.706 2.197-.863 3.279-.988 1.506-.188 3.075-.361 4.314-2.118.031-.047.055-.109.063-.157.016-.329.361-8.11-1.191-10.621-.408-.659-.997-1.302-1.68-2.039-1.93-2.103-4.314-4.645-4.361-9.366 1.671-.314 6.339-.69 9.673 2.525 3.224 3.091 5.091 4.283 5.844 4.676-1.733 1.741-1.726 3.482-1.726 3.545 0 1.005.313 1.694.934 2.056.541.298 1.2.329 1.843.298.235 0 .471-.016.698-.031.887-.016.949.142.949.346 0 1.051-1.145 2.4-2.149 3.608-.455.549-.894 1.066-1.177 1.521-1.004 1.553-.894 2.729-.345 4.361.494 1.428.424 2.746.408 2.949-.126.408-.251.801-.369 1.192-.016.034-.337.614-1.341.676zm2.275-2.745c-.031-.597-.142-1.412-.432-2.275-.518-1.521-.604-2.494.274-3.859.267-.424.69-.941 1.13-1.475 1.075-1.271 2.291-2.698 2.291-3.97 0-.925-.989-.909-1.515-.894-.228.016-.463.031-.698.031-.549.016-1.129 0-1.545-.235-.447-.251-.667-.769-.667-1.569 0-.016 0-1.679 1.694-3.278 1.036.486 6.495 3.467 7.131 5.616.729 2.432.823 6.888.518 7.499-.306.597-1.091 1.067-4.126 1.742-2.087.471-3.396 1.804-4.055 2.667zm22.663-71.349c-.009.149-.268 3.295-4.017 2.863-2.408-.267-5.468-3.028-7.931-5.169-1.585-1.38-2.966-2.549-3.923-2.839-.094-.024-.188 0-.267.063-.07.071-.102.165-.086.259.023.125.518 3.06 1.529 4.009.204.18.282.298.33.369-.142.016-.519-.016-.934-.133-.996-.291-4.369-2.079-5.013-3.907-.047-.118-.165-.188-.29-.18-.126.016-.228.102-.26.227-.008.047-.847 3.766-4.393 3.954-.016 0-.086.008-.094.008-.087 0-.126-.008-.126.008 0-.024-.016-.165.282-.588.84-1.192 1.404-2.699 1.404-3.75 0-.957-.745-4.55-4.393-4.283-.102.008-.196.07-.243.165-.055.094-.047.196 0 .282.008.016.784 1.263.784 3.138 0 1.608-1.6 4.761-5.271 5.428.518-.871 1.49-2.707 1.49-4.291 0-2.173-2.259-5.123-5.789-4.66-.078.008-.156.055-.212.118-.055.071-.078.157-.07.235.103.745.204 2.855-.455 3.703-.156.188-.345.306-.525.33-.016 0-.353-.023-.541-.651-.267-.91-1.515-.792-1.891-.737-.008 0-.07.016-.07.008-.04 0-4.017.824-4.017 4.385 0 3.53 2.541 3.42 2.557 3.428.126-.008.236-.086.283-.196.016-.023 1.396-2.809 3.922-3.154.871-.125 1.789.055 2.746.542-1.052.565-3.311 2.008-3.311 3.664 0 2.016 1.317 2.839 1.381 2.871.063.04.141.055.219.024.079-.032.142-.086.188-.149.408-.745 1.694-2.69 2.729-2.8.204-.023.268.125.424.706.307 1.177.816 3.059 5.232 2.683 3.052-.243 5.39-.612 7.868-.957 2.519-.337 5.122-.651 8.574-.518 6.754.306 9.021 6.354 9.021 8.888 0 2.761-2.346 5.452-4.667 6.997-.063.055-.11.126-.11.22 0 .086.048.173.11.235.047.008 4.079 3.53 4.079 12.12 0 4.464-1.177 7.39-2.307 10.245-1.129 2.835-2.196 5.518-2.196 9.519 0 .251.103 5.852 3.655 7.17.785.298 1.216.659 1.303 1.066.148.785-.91 1.805-1.953 2.511-.095.063-.212.141-.354.22-.895.518-2.564 1.537-2.564 3.797 0 1.726 1.051 3.326 1.819 4.486.321.502.636.973.675 1.192.102.518.086.801-.055.957-.134.157-.424.204-.871.173-1.247-.109-3.06-1.035-3.396-1.506-.063-.095-.157-.142-.267-.142-.11.016-.188.078-.228.188-.023.047-.447 1.13-2.048 1.066-1.647-.047-2.439-1.255-2.471-1.317-.047-.063-.134-.11-.212-.126-.094-.016-.173.016-.235.079-.016.016-1.239 1.317-2.62 1.333-1.286 0-1.663-1.129-1.679-1.177-.031-.094-.094-.156-.188-.188-.031-.016-.055-.016-.078 0-.063 0-.125.016-.181.063-.447.376-1.757 1.349-2.471 1.381-.173.016-.345-.016-.393-.393.126-.393.235-.784.361-1.161.031-.063 1.333-2.51 4.204-3.169 3.279-.722 4.119-1.239 4.519-2.024.4-.8.282-5.365-.486-7.923-.769-2.619-7.311-5.961-7.585-6.056h-.008c-.008 0-.016 0-.016-.016-.017.016-1.898-.753-6.033-4.738-4.307-4.188-10.715-2.557-10.786-2.525-.008 0-.016 0-.031.016-.188 0-.415.031-.714.078-1.451.204-4.604.973-9.413 3.907-2.471 1.521-4.425 2.823-6.001 3.891-2.675 1.819-4.393 3.012-6.166 3.797 4.189-7.892 4.032-14.532 4.032-14.603 0-.157-.157-.243-.29-.211-.157.039-.274.196-.274.353 0 .078.172 6.945-4.33 14.979-.024.047-.032.094-.04.141-.682 1.114-3.35 5.648-3.35 7.782 0 1.788 2.4 1.553 3.985 1.412.393-.031.879-.079 1.067-.048-.157.628-1.789 3.405-4.777 5.162-2.534 1.475-2.244 2.809-1.938 4.221.125.564.251 1.129.251 1.788 0 2.62-2.385 3.279-2.487 3.311-.666.173-2.22.267-2.949-.313-.102-.079-.274-.048-.385.078-.016.016-1.412 1.506-2.871 1.914-1.412.392-2.259-.486-2.267-.486-.055-.047-.118-.079-.204-.047-.086.016-.165.063-.22.141-.008 0-1.2 1.475-2.69 1.914-1.365.393-1.663-.455-1.679-.486-.023-.078-.086-.141-.173-.141-.094 0-.188.031-.259.109-.447.439-1.757 1.647-2.534 1.883-.031-.016-.109-.235 0-.879.268-1.396 1.35-3.906 2.637-4.77.51-.36 1.459-.627 2.557-.957 2.895-.847 7.271-2.07 7.271-6.385 0-4.738-1.858-8.629-2.439-9.696 0-.031 0-.063-.008-.078-1.977-4.989-.407-10.621-.392-10.669.047-.156-.04-.298-.181-.313-.157 0-.313.126-.361.282-.063.235-1.537 5.538.235 10.574-.031 0-.063.016-.109.032-.564.172-2.142.188-6.299-1.396-.008 0-.008 0-.023 0-4.252-2.338-6.308-6.166-6.699-6.95-.157-.533-.737-2.667-.737-4.394 0-2.008 1.191-7.612 3.451-11.126 2.126-3.287 4.479-6.056 7.201-8.456 2.77-2.44 3.185-3.742 3.185-4.307 0-.706-.564-1.396-1.271-1.2-.628.18-1.632 1.153-2.056 2.181-.172.423-.29.612-.345.674-.157 0-.69-.078-1.35-1.145-.156-.267-.298-.502-.407-.69-.393-.674-.519-.878-.793-.8-.329.094-.392.502-.454.887-.009.039-.009.079-.024.118-.156 1.043-.22 1.185-.518 1.271-.228.071-.973-.533-1.553-1.263-.079-.094-.22-.094-.346-.016-.016.016-1.898 1.302-3.42 2.032.329-.746.644-1.483.965-2.228.055-.102.039-.228-.031-.29-.07-.063-.181-.063-.29-.008-.031.016-2.699 1.514-4.824 2.22.494-2.416 1.514-5.773 2.321-6.017.008 0 .023-.008.023-.008.753.063 4.754.259 9.594-.934-.094.322-.313.871-.8 1.577-.07.11-.086.235-.039.33.047.086.156.118.274.071 0 0 1.31-.471 2.722-.667.283-.031.597-.055.902-.086.564-.031 1.106-.07 1.562-.196.345-.102.643-.259.831-.518.204-.274.235-.604.109-.996-.345-1.083-1.145-2-1.498-2.369-.008-.023-.016-.047-.031-.07-.031-.023-3.099-2.785-3.891-4.26-.047-.086-.149-.118-.259-.086-.11.04-.212.134-.251.244-.055.133-.51 1.318-.549 1.914-.016.165-.048.204-.063.212-.047.016-.188.04-.494-.086-.596-.228-1.827-1.036-1.843-1.043-.079-.055-.204-.04-.307.031-.102.079-.172.196-.172.306 0 .047-.008.91.086 1.726-.588-.118-1.608-.384-2.275-.941-.376-.306-.722-.612-1.043-.902-.572-.51-1.122-.981-1.702-1.365-.745-.486-3.013-1.969-3.013-5.875 0-.102.181-2.534 2.855-3.342.895-.267 1.562-.188 1.977.22.659.644.573 1.938.439 2.534-.031.102 0 .188.063.243.07.047.172.055.267.008.016-.016 1.553-.769 2.588-1.137.84-.306 1.476-.698 2.268-1.208.259-.165.541-.337.855-.525.658-.4 1.333-.596 1.992-.792.549-.157 1.13-.322 1.671-.612.761-.408 2.173-1.553 2.675-2.91.29-.769.251-1.491-.094-2.142.643-.291 2-.879 3.208-1.208.572-.157 1.051-.235 1.404-.235.596 0 1.255.282 1.819.533.651.274 1.209.518 1.695.392.282-.07.643-.29.831-.949.196-.698.228-1.271.251-1.726.047-.776.086-.878.408-.98.031-.008.063-.016.094-.023 1.083-.283 3.091.031 5.193 1.82.055.063.141.07.235.039.078-.023.156-.094.204-.18.102-.181.965-1.773 1.098-2.534.103-.588.157-.69.439-.753.188-.039.455-.039.792 0 1.185.133 2.4.627 3.326 1.341.848.651 1.412.659 2.439.447.91-.18 1.867-1.114 3.39-2.73-.173 1.271-.801 4.063-3.248 6.754-.063.078-.094.165-.086.251s.055.157.133.196c.016 0 1.891.848 1.726 5.703-.016.714-.031 1.389-.047 2.04-.063 2.439-.142 5.217-.486 5.522 0 0-.094 0-.298-.22-.047-.055-.126-.063-.204-.055-.69-.439-2.84-1.914-3.247-3.875-.542-2.557-1.647-2.675-1.766-2.683-.102 0-.204.055-.274.141s-.094.196-.07.291c.525 1.765.228 3.35-.008 4.126-.753-.714-2.346-1.349-2.558-1.428-.134-.055-.313.031-.393.181-.078.149-.039.313.095.361.643.259 2.385 1.043 2.667 1.647.047.094.141.149.251.118.109-.016.22-.102.267-.211.031-.086.848-1.922.416-4.268.274.306.588.886.815 1.953.479 2.259 2.941 3.852 3.538 4.213.047.274.125.8.188 1.419.039.455.298 1.09.557 1.718.204.494.51 1.247.471 1.443-.07.141-.103.149-.142.157-.368.071-1.412-.471-1.749-.643-.047-.024-.094-.016-.142-.016-2.148-.792-4.354-3.208-4.377-3.232-.063-.071-.148-.086-.251-.055-.094.031-.181.102-.228.196-.353.753-.706 1.506-1.059 2.259-.667-.4-1.334-.8-1.992-1.2-.087-.047-.204-.04-.299.023-.094.07-.164.18-.172.29-.016.518-.486 1.577-.809 2.251-.627-.573-1.969-1.389-2.142-1.506-.125-.07-.298-.008-.407.134-.095.141-.079.321.031.392.784.479 2.109 1.365 2.306 1.679.048.07.142.118.235.086.118-.016.204-.094.251-.196.095-.173.753-1.459 1.005-2.416.635.376 1.271.761 1.898 1.145.063.04.148.047.234.008.079-.031.157-.102.196-.196.338-.722.683-1.443 1.021-2.165.666.69 2.471 2.385 4.298 3.051.103.298.346 1.122.416 1.938.079.816.941 1.875 1.459 2.448-.282.055-.549.11-.831.165-.031.008-.047.039-.078.047-3.357.251-5.437-1.388-5.46-1.412-.11-.079-.282-.04-.4.086-.11.134-.118.314-.008.4.094.086 2.322 1.835 6.009 1.482.361.094.815.251.934.408 0 0 .008.016.023.016 0 .008.016.023.023.031.063.047 1.365.988 2.424 1.506-.58.314-1.819.785-4.087.957-.149.008-.282.134-.313.283-.016.086-.408 2.024-.29 3.294-.714.086-2.542.228-4.833-.408-.109-.031-.242.031-.329.133-.564.729-2.118 2.636-3.06 3.342-.854-2.032-2.117-5.107-2.165-5.452 0-.125-.094-.211-.228-.204-.133.008-.259.118-.306.243-.016.031-1.286 3.373-2.165 5.028-.815-.934-1.616-1.922-1.679-2.118 0-.133-.094-.22-.228-.212-.133.008-.259.118-.313.251-.008.032-1.06 2.848-2.204 4.063-.268-.902-.534-1.796-.793-2.698-.031-.118-.148-.181-.29-.125-.125.039-.235.172-.259.306-.023.125-.447 2.871-3.13 4.66-.393-1.475-.737-3.051-.69-3.326.016-.11-.023-.196-.094-.243-.079-.039-.188-.031-.283.032-.016.016-1.835 1.145-2.941 1.71.541-1.083 1.624-3.279 1.875-4.314.047-.157-.047-.291-.204-.283-.141 0-.298.134-.345.298-.314 1.271-2.103 4.73-2.118 4.762-.063.102-.063.219 0 .29.047.079.142.11.251.071.737-.267 2.542-1.357 3.311-1.836.109.918.596 2.777.761 3.413.023.07.07.125.134.141.047.016.094.008.141-.008.031-.008.063-.016.086-.031 2.158-1.302 3.107-3.146 3.522-4.314.204.706.416 1.42.628 2.133.016.079.078.134.156.149.079.008.165-.016.236-.079 1.098-.855 2.086-2.997 2.525-4.071.321.471.895 1.177 1.726 2.11.063.063.142.078.235.055s.173-.094.228-.172c.667-1.114 1.64-3.499 2.126-4.754.502 1.381 1.655 4.118 2.071 5.099.055.133.212.165.353.086 1.059-.596 2.871-2.855 3.396-3.522 2.981.785 5.131.314 5.225.298.078-.016.157-.07.204-.149.063-.07.078-.165.063-.235-.173-.886.087-2.518.204-3.146 3.482-.29 4.612-1.341 4.659-1.396.071-.063.11-.172.103-.259-.008-.094-.063-.165-.149-.196-.659-.251-1.608-.863-2.196-1.263 1.961-.369 7.248-1.208 9.648-1.459.612-.071 1.248-.141 1.883-.228 2.032-.282 4.871-.737 6.872-1.482.808-.314 2.533-.604 4.974-.753 2.377-.149 4.644-.102 4.644-.094.023-.008.549.031 1.428.016 1.726-.04 4.338-.243 7.06-1.067 3.813-1.153 5.672-2.871 5.672-5.546 0-1.742-.949-4.927-7.318-5.123-2.723-.047-4.551.33-6.473.737-2.125.471-4.322.973-7.978 1.263-4.77.393-8.472-.462-10.684-.965-1.099-.243-1.82-.4-2.307-.321-1.537.243-2.322 1.992-2.322 2.902 0 .706-.125.965-.172 1.004 0 0-.204.024-.69-.525-1.161-1.333-1.185-2.848-1.185-2.895 0-.008-.118-1.592 1.153-3.201.102-.133.094-.306-.016-.392-.032-.039-3.217-2.502-3.217-6.275 0-4.063 4.487-10.943 14.465-12.136 9.916-1.051 14.262 2.251 18.475 5.366.242.181.479.369.729.549 1.256.941 2.433 1.914 3.483 2.785 2.809 2.345 4.848 4.118 6.314 4.267.087.008.165-.023.228-.094.047-.063.063-.142.047-.235-.008-.016-.376-1.459.283-2.251.36-.432.973-.612 1.819-.51.863.102 1.507.439 1.914.988.781 1 .546 2.404.539 2.451z"></path><path d="m172.738 115.924c-.126-.031-.267.04-.346.157-.267.353-.909 1.663-1.208 2.275-1.271-.51-2.377-2.04-2.385-2.063-.086-.11-.259-.102-.392.008-.134.118-.173.298-.095.416.048.079 1.342 1.859 2.84 2.291.07.023.149.016.22-.031.07-.031.134-.102.173-.173.329-.698.847-1.749 1.13-2.243.596.204 2.29.917 2.572 2.432.016.079.079.149.149.165.078.024.165 0 .243-.055.039-.023.722-.51 1.004-1.239.345.243.918.62 1.554 1.012v.063c.172 1.577-.048 2.777-.212 3.42-1.153-1.027-3.899-1.749-4.032-1.781-.086-.031-.196.008-.29.094-.079.079-.126.188-.118.29.047.432-.306 1.553-.604 2.354-.706-1.153-2.252-2.51-2.33-2.573-.063-.055-.149-.071-.251-.032-.087.032-.173.118-.212.212-.518 1.2-1.663 2.4-2.307 3.012-.047-.91-.399-2.102-.455-2.275-.031-.11-.156-.149-.29-.11-.133.04-.243.181-.259.322-.031.274-.902 1.506-1.812 2.659-.196-.855-.385-1.71-.573-2.557-.031-.141-.188-.196-.345-.125-.142.079-.243.251-.212.392.228 1.012.463 2.024.683 3.036.023.086.094.157.196.149.102 0 .203-.047.274-.141.494-.596 1.443-1.796 1.977-2.675.157.659.321 1.522.235 1.954-.031.117.016.211.109.259.087.039.204.016.307-.063.086-.07 1.875-1.6 2.769-3.302.581.541 1.93 1.851 2.244 2.729.031.102.133.149.251.133.125-.039.22-.125.267-.235.094-.212.722-1.828.878-2.84 1.13.33 3.217 1.098 3.75 1.898.047.07.142.11.251.078h.008c.103-.031.196-.118.243-.22.031-.063.597-1.514.455-3.796.722.4 1.475.737 2.087.847.039 0 .078 0 .109-.008.039-.008.079-.023.126-.047.063-.063.125-.133.141-.211.204-.722.408-1.451.604-2.173.039-.157-.039-.298-.188-.314-.148 0-.306.118-.353.282-.173.612-.346 1.224-.511 1.836-1.615-.439-4.103-2.299-4.126-2.314-.078-.063-.196-.055-.306.008-.102.063-.173.188-.173.298-.023.4-.282.753-.494.973-.601-1.807-2.876-2.426-2.97-2.458z"></path><path d="m186.207 101.6c-.11.141-.11.314.008.4.729.565 1.459 1.138 2.196 1.71.055.047.126.055.196.047.07-.016.149-.063.204-.133.102-.125.102-.306-.008-.4-.729-.573-1.459-1.138-2.196-1.71-.11-.086-.29-.047-.4.086z"></path><path d="m179.155 105.295c-.157.047-.268.22-.252.369 0 .016.142 1.71-.635 3.091-.557-.479-1.122-.949-1.679-1.42-.078-.063-.196-.063-.306 0-.103.063-.173.18-.188.29-.047.745-.228 1.836-.502 2.361-.471-.455-.941-.902-1.404-1.357-.087-.079-.228-.079-.345.016-.118.094-.181.243-.149.361.125.447.36 1.663.141 2.549-.792-.345-1.584-.69-2.384-1.036-.118-.047-.283.016-.377.157-.047.07-.988 1.475-1.404 2.298-.628-.133-2.33-.612-2.502-2.126-.016-.149-.149-.235-.307-.165-.156.055-.267.228-.251.384.243 2.173 2.974 2.518 3.083 2.526.031.008.07.008.11 0 .109-.031.204-.118.251-.243.188-.463.894-1.577 1.294-2.188.823.353 1.64.706 2.463 1.067.071.031.149.023.228-.016.079-.04.142-.11.188-.188.313-.69.298-1.577.22-2.259.298.291.596.588.902.887.086.078.251.07.368-.04.542-.471.784-1.663.879-2.439.494.423.988.839 1.49 1.255.047.047.126.055.204.04.086-.016.157-.079.22-.157 1.138-1.624.957-3.742.957-3.828-.015-.158-.157-.236-.313-.189z"></path><path d="m164.548 106.746c.313-.086.831-.282 1.208-.69.267-.298.416-.643.439-1.035.078-1.153-.659-1.412-1.067-1.389-.157.008-.298.141-.337.298-.039.165.055.291.212.283.07 0 .69.008.627.926-.016.227-.094.416-.235.572-.298.337-.839.486-1.02.51-.055.008-1.271.188-1.271-1.004 0-1.278 1.177-2 1.607-2.118.479-.134 1.499-.157 2.785.219 1.161.337 3.311.957 6.479.157.094-.032.188-.102.243-.204.047-.11.047-.204-.008-.29-.259-.345-.518-.698-.769-1.043 1.208.259 3.514.274 7.248-1.302.094-.039.188-.133.22-.243.023-.102 0-.204-.078-.267-.55-.416-1.099-.824-1.64-1.232-.11-.086-.291-.047-.4.094-.109.133-.109.314 0 .4.424.313.84.627 1.255.941-5.177 2.048-7.271.73-7.295.714-.103-.078-.267-.039-.377.079-.109.118-.125.282-.055.384.377.51.761 1.02 1.138 1.53-2.73.573-4.565.047-5.68-.29-1.381-.4-2.494-.369-3.067-.212-.761.212-2.173 1.263-2.173 2.848 0 1.365 1.161 1.521 1.766 1.419.01 0 .104-.016.245-.055z"></path><path d="m178.119 98.752c.016 0 .031-.008.048-.008.023-.008 2.572-.996 4.832-1.789 2.337-.816 4.22-2.847 4.299-2.934.125-.125.125-.306.031-.4-.11-.102-.283-.07-.408.055-.016.023-1.828 1.985-4.001 2.738-2.259.792-4.816 1.781-4.832 1.789-.157.063-.267.228-.243.384.023.134.141.205.274.165z"></path></g></g><g><g><path d="m109.503 217.435c-.055.815-.109 1.646-.165 2.463 0 0 1.918-.879 4.915-.408 2.993.486 6.425-1.35 8.444-5.099 2.02-3.734.844-7.468 1.549-9.963.706-2.494 1.549-5.773 1.816-10.213 0 0-1.792 4.408-4.506 7.138-2.718 2.809-13.712 5.993-13.712 11.391 0 0-.2 2.62 1.659 4.691z" fill="#fbb228"></path><path d="m126.125 193.98c-.012 0-.055 0-.067.016-.09.016-.165.094-.196.173-.004.016-.012.031-.016.031-.321.753-2.039 4.597-4.428 7.013-.852.862-2.55 1.788-4.519 2.855-4.138 2.228-9.284 4.879-9.284 8.723-.016.282-.086 2.777 1.655 4.77-.055.8-.109 1.585-.165 2.385 0 .063.023.126.079.157.047.031.102.047.157.031.008 0 .035-.016.043-.016.004 0 .279-.126.765-.251.843-.22 2.228-.424 4.012-.142.91.142 1.851.094 2.8-.157 2.373-.658 4.534-2.525 5.927-5.099 1.31-2.432 1.314-4.785 1.318-6.871 0-.017 0-.032 0-.048.004-1.145.008-2.228.259-3.122.796-2.808 1.569-6.009 1.824-10.26.009-.126-.069-.204-.164-.188zm-17.665 16.896c.004-.016.008-.016.012-.031-.169.345-.291.69-.373 1.051v-.016c.078-.344.2-.69.361-1.004zm1.274 6.511c0-.063-.016-.094-.047-.141-1.69-1.883-1.628-4.283-1.616-4.55 0-3.499 4.954-6.056 8.943-8.222 1.926-1.035 3.742-2.023 4.675-2.965.51-.518.898-1.146 1.341-1.741.04-.047.075-.095.11-.142 1.134-1.568 2.103-3.185 2.612-4.235-.31 3.671-1.012 6.511-1.726 9.036-.271.957-.275 2.087-.279 3.295-.004 2.023-.008 4.314-1.239 6.605-1.31 2.432-3.33 4.157-5.546 4.769-.886.252-1.769.299-2.624.173-1.848-.298-3.299-.094-4.189.126-.235.063-.424.125-.569.172.053-.721.104-1.458.154-2.18zm-.078-8.189c.012-.016.02-.031.031-.047.047-.047.094-.094.145-.142.012-.016.023-.031.035-.031-.074.064-.144.142-.211.22z" fill="#231f20"></path></g><g><path d="m256.014 197.039c.047.832.109 1.647.157 2.479 0 0-1.914-1.036-4.911-.533-2.996.471-6.424-1.099-8.44-4.613-2.023-3.514-.847-7.389-1.553-9.789-.706-2.417-1.554-5.57-1.82-9.979 0 .016 1.796 4.126 4.511 6.604 2.722 2.275 13.712 5.633 13.712 11.265-.001 0 .196 2.605-1.656 4.566z" fill="#fbb228"></path><path d="m239.384 174.384h.07c.086.016.165.078.196.142 0 .016.016.031.016.047.321.706 2.039 4.299 4.424 6.479.855.784 2.558 1.568 4.519 2.557 4.142 2.009 9.288 5.053 9.288 8.928.016.282.086 2.761-1.655 4.644.055.8.11 1.601.165 2.4 0 .063-.023.11-.079.157-.047.016-.102.031-.156.016 0 0-.031-.031-.048-.031 0 0-.274-.142-.761-.283-.839-.267-2.228-.518-4.008-.234-.91.156-1.852.125-2.809-.095-2.369-.564-4.534-2.228-5.923-4.659-1.31-2.275-1.31-4.629-1.317-6.715 0-.016 0-.031 0-.048-.008-1.145-.008-2.228-.259-3.09-.801-2.699-1.569-5.79-1.82-10.01-.016-.111.063-.205.157-.205zm17.665 16.175c0-.016 0-.031-.008-.031.165.346.291.706.369 1.067-.077-.361-.196-.706-.361-1.036zm-1.27 6.417c0-.047.016-.094.047-.125 1.694-1.773 1.632-4.174 1.616-4.456 0-3.515-4.958-6.433-8.942-8.378-1.93-.957-3.742-1.788-4.676-2.636-.51-.471-.894-1.066-1.341-1.616-.039-.047-.071-.078-.11-.125-1.138-1.428-2.103-2.918-2.612-3.906.314 3.64 1.012 6.385 1.727 8.816.267.926.274 2.056.282 3.264 0 2.023 0 4.314 1.239 6.464 1.302 2.291 3.326 3.844 5.538 4.361.895.22 1.772.251 2.628.11 1.844-.314 3.303-.048 4.188.22.235.078.424.156.573.203-.055-.721-.11-1.459-.157-2.196zm.078-8.189c-.016 0-.016-.016-.031-.031-.047-.047-.094-.11-.141-.157-.016-.016-.031-.016-.04-.031.071.077.149.156.212.219z" fill="#231f20"></path></g></g><g><g><path d="m109.503 84.46c-.055-.792-.109-1.584-.165-2.377 0 0 1.918-.078 4.915-2.157 2.993-2.079 6.425-2.165 8.444.424 2.02 2.581.844 6.989 1.549 9.084.706 2.079 1.549 4.863 1.816 9.154 0 0-1.792-3.35-4.506-4.558-2.718-1.153-13.712 1.451-13.712-4.048 0 0-.2-2.502 1.659-5.522z" fill="#fbb228"></path><path d="m126.125 98.792c-.012.008-.055.023-.067.031-.09.023-.165-.008-.196-.063 0-.008-.016-.031-.016-.039-.321-.565-2.039-3.404-4.428-4.463-.852-.376-2.55-.345-4.519-.33-4.138.055-9.284-.023-9.284-3.883-.016-.275-.086-2.722 1.655-5.593-.055-.769-.109-1.538-.165-2.298 0-.079.023-.133.079-.204.047-.055.102-.086.157-.102h.043c.004-.008.279-.016.765-.141.843-.22 2.228-.729 4.012-1.961.91-.636 1.851-1.09 2.8-1.349 2.373-.651 4.534-.008 5.927 1.772 1.31 1.671 1.314 4.032 1.318 6.119v.047c.004 1.145.008 2.228.259 2.965.796 2.354 1.569 5.099 1.824 9.209.009.118-.069.243-.164.283zm-17.665-7.249c.004.008.008.016.012.023-.169-.259-.291-.541-.373-.855v.008c.078.299.2.581.361.824zm1.274-7.154c0 .055-.016.11-.047.165-1.69 2.73-1.628 5.099-1.616 5.374 0 3.499 4.954 3.577 8.943 3.53 1.926-.023 3.742-.063 4.675.353.51.228.898.635 1.341.98.04.023.075.047.11.079 1.134.918 2.103 1.969 2.612 2.73-.31-3.507-1.012-5.938-1.726-8.041-.271-.8-.275-1.938-.279-3.13-.004-2.024-.008-4.323-1.239-5.899-1.31-1.679-3.33-2.283-5.546-1.671-.886.243-1.769.659-2.624 1.248-1.848 1.287-3.299 1.835-4.189 2.063-.235.055-.424.094-.569.11.053.705.104 1.411.154 2.109zm-.078 8.237c.012.008.02.008.031.023.047.016.094.047.145.071.012.008.023.008.035.016-.074-.039-.144-.07-.211-.11z" fill="#231f20"></path></g><g><path d="m256.014 64.064c.047-.785.109-1.577.157-2.361 0 .008-1.914-.228-4.911-2.291-2.996-2.071-6.424-1.914-8.44.91-2.023 2.808-.847 7.083-1.553 9.256s-1.554 5.075-1.82 9.405c0 .008 1.796-3.632 4.511-5.099 2.722-1.679 13.712 1.098 13.712-4.181-.001.009.196-2.501-1.656-5.639z" fill="#fbb228"></path><path d="m239.384 79.196c.016 0 .063.016.07.016.086.016.165-.031.196-.086 0-.008.016-.04.016-.04.321-.612 2.039-3.703 4.424-4.981.855-.463 2.558-.573 4.519-.636 4.142-.165 9.288.149 9.288-3.679.016-.267.086-2.73-1.655-5.711.055-.769.11-1.53.165-2.298 0-.071-.023-.133-.079-.204-.047-.055-.102-.094-.156-.11 0 0-.031-.008-.048-.008 0 0-.274-.031-.761-.18-.839-.259-2.228-.824-4.008-2.047-.91-.636-1.852-1.067-2.809-1.294-2.369-.557-4.534.29-5.923 2.22-1.31 1.82-1.31 4.189-1.317 6.276v.047c-.008 1.146-.008 2.228-.259 2.997-.801 2.456-1.569 5.311-1.82 9.46-.016.117.063.227.157.258zm17.665-7.969s0 .008-.008.016c.165-.243.291-.518.369-.824v.008c-.077.289-.196.564-.361.8zm-1.27-7.241c0 .055.016.11.047.165 1.694 2.839 1.632 5.216 1.616 5.483 0 3.475-4.958 3.208-8.942 3.374-1.93.047-3.742.172-4.676.667-.51.282-.894.729-1.341 1.122-.039.032-.071.063-.11.094-1.138 1.043-2.103 2.228-2.612 3.06.314-3.546 1.012-6.08 1.727-8.268.267-.839.274-1.969.282-3.162 0-2.023 0-4.33 1.239-6.04 1.302-1.82 3.326-2.597 5.538-2.079.895.212 1.772.612 2.628 1.192 1.844 1.278 3.303 1.875 4.188 2.149.235.07.424.11.573.141-.055.706-.11 1.404-.157 2.102zm.078 8.237c-.016.008-.016.016-.031.023-.047.016-.094.04-.141.063-.016.008-.031.008-.04.016.071-.032.149-.063.212-.102z" fill="#231f20"></path></g></g></g></g></g></svg>
+                  <span class="text-[#444444] font-bold pl-3">TalentPro Lanka</span>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- footer -->
+
+  <footer class="bg-primary text-white py-6 px-8 md:px-4">
+    <div class="container mx-auto text-[#98A6BC] flex flex-col md:flex-row justify-between items-center max-w-screen-xl">
+      <p class="text-center mb-4 md:mb-0">© 2024 TalentPro India. All rights reserved.</p>
+      <div class="flex flex-col md:flex-row text-[#BEC9DA] items-center">
+        <a href="#" class="mr-0 md:mr-2 mb-2 md:mb-0">Services Location <span class="hidden md:inline px-3">|</span></a>
+        <a href="#" class="mr-0 md:mr-2 mb-2 md:mb-0">Privacy Policy <span class="hidden md:inline px-3">|</span></a>
+        <a href="#" class="mb-2 md:mb-0">FAQs</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+        new WOW().init();
+    </script>
+            
+</body>
+</html>
